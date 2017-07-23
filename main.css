@@ -1,0 +1,325 @@
+@font-face {
+  font-family: 'DIN Pro';
+  src: url('fonts/DINProLight.otf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'DIN Pro Medium'; 
+  src: url('fonts/DINProMedium.otf'); /*URL to font*/
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: DIN Pro, Roboto Condensed, Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+p {
+  font-size: 1em;
+
+}
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 1.75em;
+}
+h3 {
+  font-size: 1.4em;
+}
+
+/*NAVBAR BEGIN*/
+.navbar{
+  position: static;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  background-image: none;
+  background-color: white;
+  border-style: none;
+  border-radius: 0px;
+  z-index: 100;
+  text-align: center;
+  box-shadow: none;
+}
+.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .open a {
+  background: none;
+  background-image: none;
+  background-color: white;
+  box-shadow: none;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #dd5050;
+  color: #eea7a7;
+}
+.navbar-default .navbar-nav li a {
+  color:black;
+  background-color: white;
+  cursor: pointer;
+}
+.navbar-default .navbar-nav li a:hover {
+  color:#eea7a7;
+}
+.navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .open a:hover {
+  background: none;
+  background-image: none;
+  background-color: white;
+  box-shadow: none;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #ea9696;
+  color:#eea7a7;
+}
+.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav a  {
+  padding-bottom: 6px;
+  background-color: white;
+  background-image:none;
+}
+.navbar .name {
+  margin-top: 15px;
+  font-weight: 700;
+  font-family: DIN Pro Medium, Roboto Condensed, Arial, Helvetica, sans-serif;
+}
+.navlogo {
+  width: 25px;
+  background-color: white;
+}
+.navbar-default .navbar-toggle {
+  margin-right: 0;
+  border-radius: 0;
+}
+@media (min-width: 768px) {
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-nav > li {
+    float: none;
+    display: inline-block;
+  }
+  .navbar-nav > li.navbar-right {
+    float: right !important;
+  }
+}
+.logo img:last-child{display:none}
+.logo:hover img:first-child{display:none}
+.logo:hover img:last-child{display:inline-block}
+
+.exiticon img:last-child{display:none}
+.exiticon:hover img:first-child{display:none}
+.exiticon:hover img:last-child{display:inline-block}
+.exiticonsvg {
+  width: 15px;
+}
+
+/*NAVBAR END*/
+
+
+/*THUMBNAIL BEGIN*/
+.thumbnailsection {
+}
+.thumbnailsection .container {
+  margin: 0px auto;
+  padding: 0px;
+}
+.thumbnailsection .thumbnail {
+  border-style: none;
+  box-shadow: none;
+}
+.thumbnailsection .thumbnail img.thumbnailimg {
+  width: 100%;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.thumbnailsection .thumbnail p {
+  font-family: DIN Pro Medium, Roboto Condensed, Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  text-align: center;
+}
+.thumbnailsection h1 {
+  font-family: DIN Pro Medium, Roboto Condensed, Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/*THUMBNAIL ENG*/
+
+
+/*PROJECT SECTION BEGIN*/
+.projectpagesection {
+}
+.projectpagesection .container {
+  margin: 0px auto;
+  padding: 0px;
+}
+.projectpagesection .projectbanner {
+  border-style: none;
+  box-shadow: none;
+}
+.projectpagesection .projectpagename {
+  margin-bottom: 50px;
+}
+.projectpagesection .projectpagename p {
+  text-align: center;
+}
+.projectpagesection .projectpagename h1 {
+  font-family: DIN Pro Medium, Roboto Condensed, Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;    
+}
+.projectpagesection img {
+  width: 100%;
+  height: auto;  
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.projectpagesection p {
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: justify; 
+}
+/*PROJECT SECTION END*/
+
+
+/*ABOUT BEGIN */
+.aboutsection {
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+.aboutsection .container {
+  margin: 0px auto;
+  padding: 0px;
+}
+.aboutsection .aboutsectioncolumn {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 50px;
+}
+.aboutsection img {
+  border-style: none;
+  box-shadow: none;
+  width: 100%;
+}
+.aboutsection h1 {
+  font-family: DIN Pro Medium, Roboto Condensed, Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.aboutsection a {
+  color: #c64848;
+  text-decoration: none;
+}
+.aboutsection a:hover {
+  color: #eea7a7;
+  text-decoration: none;
+}
+/*ABOUT END */
+
+
+
+
+
+/*LANDING PAGE BEGIN*/
+.bg {
+  /* The image used */
+  background-image: url("img/logo_landingpage.svg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: solid;
+  border-width: 25px;
+  border-color: #ffffff;
+}
+#entertitle {
+  position:absolute;
+  margin-left: 60px; 
+  margin-top: 60px;
+  cursor: pointer;
+}
+.svglogo {
+  width: 200px; 
+  height: auto; 
+  margin-left: auto; 
+  margin-right: auto; 
+  position: relative; 
+  cursor: pointer;
+}
+.svglogo:hover {
+  cursor: pointer;
+}
+#svg-container{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  overflow: none;
+  cursor: pointer;
+}
+svg circle:hover  { 
+  fill: #dd5050;
+  cursor: pointer;
+}
+
+/*LOGO ANIMATION -- DO NOT TOUCH -- BEGIN*/
+.dashed{
+  stroke-dasharray: 10;
+}
+.path {
+  stroke-dasharray: 240;
+  stroke-dashoffset: 240;
+  animation: dash 2.5s alternate infinite;
+  animation-delay: 0s;
+}
+#maintitle {
+  text-align: center;
+  font-family: 'DINPro', 'sans serif'
+}
+@keyframes dash {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 250;
+  }
+}
+/*LOGO ANIMATION -- DO NOT TOUCH -- END*/
+
+
+/*FOOTER BEGIN*/
+.footer {
+  position:static;
+  left:0px;
+  bottom:0px;
+  height:auto;
+  width:100%;
+  background-color: white;
+}
+.footer p {
+  text-align: center; 
+  margin-top: 30px;
+  margin-bottom: 7px;
+}
+/*FOOTER END*/
+
+
+
+
+/*
+svg {
+  transform: translate(0%, 0%);
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+#rotatespin {
+  animation: spin 4s infinite linear;
+}#/
+/*LOGO ANIMATION -- DO NOT TOUCH -- END*/
