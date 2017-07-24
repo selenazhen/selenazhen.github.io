@@ -45,10 +45,16 @@ templates['projectbannerimage'] = template({"compiler":[7,">= 4.0.0"],"main":fun
     + ">";
 },"useData":true});
 templates['projectdescription'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var helper;
+    var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
   return "<p>"
-    + container.escapeExpression(((helper = (helper = helpers.description || (depth0 != null ? depth0.description : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"description","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = helpers.goal || (depth0 != null ? depth0.goal : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"goal","hash":{},"data":data}) : helper)))
+    + "</p>\n<p>"
+    + alias4(((helper = (helper = helpers.description1 || (depth0 != null ? depth0.description1 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description1","hash":{},"data":data}) : helper)))
+    + "</p>\n<p>"
+    + alias4(((helper = (helper = helpers.description2 || (depth0 != null ? depth0.description2 : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"description2","hash":{},"data":data}) : helper)))
+    + "</p>\n<p>"
+    + alias4(((helper = (helper = helpers.partner || (depth0 != null ? depth0.partner : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"partner","hash":{},"data":data}) : helper)))
     + "</p>";
 },"useData":true});
 templates['projectpagename'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
@@ -56,7 +62,7 @@ templates['projectpagename'] = template({"compiler":[7,">= 4.0.0"],"main":functi
 
   return "<h1>"
     + alias4(((helper = (helper = helpers.pagename || (depth0 != null ? depth0.pagename : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"pagename","hash":{},"data":data}) : helper)))
-    + "</h1>\n<p>"
+    + "</h1>\n<hr>\n<p>"
     + alias4(((helper = (helper = helpers.location || (depth0 != null ? depth0.location : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"location","hash":{},"data":data}) : helper)))
     + "</p>\n<p>"
     + alias4(((helper = (helper = helpers.schoolyear || (depth0 != null ? depth0.schoolyear : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"schoolyear","hash":{},"data":data}) : helper)))
@@ -69,9 +75,9 @@ templates['thumbnail'] = template({"compiler":[7,">= 4.0.0"],"main":function(con
 
   return "<a href="
     + alias4(((helper = (helper = helpers.filesource || (depth0 != null ? depth0.filesource : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"filesource","hash":{},"data":data}) : helper)))
-    + "><img class=\"thumbnailimg\" src="
+    + "><div class=\"image\">\n<img class=\"thumbnailimg\" src="
     + alias4(((helper = (helper = helpers.source || (depth0 != null ? depth0.source : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"source","hash":{},"data":data}) : helper)))
-    + "></a>\n<p>"
+    + "></div></a>\n\n<p>"
     + alias4(((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper)))
     + "</p>";
 },"useData":true});
