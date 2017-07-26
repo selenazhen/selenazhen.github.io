@@ -34,7 +34,7 @@
   <!-- Google Fonts: Fjalla One and Roboto Condensed-->
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
   <!--favicon start-->
-  <link rel="icon" type="image/png" sizes="16x16 32x32" href="img/logo_charcoal.png">
+  <link rel="icon" type="image/png" sizes="16x16 32x32" href="img/logoblack.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -67,14 +67,112 @@
   <div class="container">
     <div class="row projectpagename" id="projectpagenametwist">
     </div>  
-    <div class="row" style="margin-top: 40px;">
+    <div class="row projectpagerow">
       <div class="col-sm-6" id="projectdescriptiontwist"></div>
-      <div class="col-sm-6"><img style="width: 100%;" src="img/architecture/twist/photo_elevation_short.jpg"></div>      
+      <div class="col-sm-6">
+        <a href="img/architecture/twist/photo_angle.jpg" target="blank">
+          <img src="img/architecture/twist/photo_angle.jpg">
+        </a>
+        <p class="projectimagecaption">sdf</p>
+      </div>
     </div>
     <br>
-
+    <div class="row projectpagerow">
+      <div class="col-sm-12">
+        <a href="img/architecture/twist/photo_elevation_long.jpg" target="blank">
+          <img src="img/architecture/twist/photo_elevation_long.jpg">
+        </a>
+        <p class="projectimagecaption">hello</p>
+      </div>
+    </div>
   </div>
 </section>
+
+
+<section class="slideshow">
+  <div class="container">
+    <div class="row">
+      <div class="w3-display-container mySlides">
+        <a href="img/architecture/twist/documentation_cover.jpg" target="blank">
+        <img src="img/architecture/twist/documentation_cover.jpg" style="width:100%">
+        <div class="slidedescription">Twist Documentation
+        </div></a>
+      </div>
+      <div class="w3-display-container mySlides">
+        <a href="img/architecture/twist/documentation_12.jpg" target="blank">
+        <img src="img/architecture/twist/documentation_12.jpg" style="width:100%">
+        <div class="slidedescription">Twist Documentation Page 12
+        </div></a>
+      </div>
+      <div class="w3-display-container mySlides">
+        <a href="img/architecture/twist/documentation_13.jpg" target="blank">      
+        <img src="img/architecture/twist/documentation_13.jpg" style="width:100%">
+        <div class="slidedescription">Twist Documentation Page 13
+        </div></a>
+      </div>
+      <div class="w3-display-container mySlides">
+        <a href="img/architecture/twist/documentation_14.jpg" target="blank">      
+        <img src="img/architecture/twist/documentation_14.jpg" style="width:100%">
+        <div class="slidedescription">Twist Documentation Page 14
+        </div></a>
+      </div>
+      <div class="w3-display-container mySlides">
+        <a href="img/architecture/twist/documentation_15.jpg" target="blank">      
+        <img src="img/architecture/twist/documentation_15.jpg" style="width:100%">
+        <div class="slidedescription">Twist Documentation Page 15
+        </div></a>
+      </div>
+      <div class="w3-display-container mySlides">
+        <a href="img/architecture/twist/documentation_16.jpg" target="blank">      
+        <img src="img/architecture/twist/documentation_16.jpg" style="width:100%">
+        <div class="slidedescription">Twist Documentation Page 16
+        </div></a>
+      </div>
+      <div class="w3-display-container mySlides">
+        <a href="img/architecture/twist/documentation_17.jpg" target="blank">      
+        <img src="img/architecture/twist/documentation_17.jpg" style="width:100%">
+        <div class="slidedescription">Twist Documentation Page 17
+        </div></a>
+      </div>
+      <div class="w3-display-container mySlides">
+        <a href="img/architecture/twist/documentation_18.jpg" target="blank">      
+        <img src="img/architecture/twist/documentation_18.jpg" style="width:100%">
+        <div class="slidedescription">Twist Documentation Page 18
+        </div></a>
+      </div>
+      <div class="w3-display-container mySlides">
+        <a href="img/architecture/twist/documentation_19.jpg" target="blank">      
+        <img src="img/architecture/twist/documentation_19.jpg" style="width:100%">
+        <div class="slidedescription">Twist Documentation Page 19
+        </div></a>
+      </div>
+      <div>
+        <button style="float: left;" onclick="plusDivs(-1)">&#10094;</button>
+        <button style="float: right;" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
 
 <footer class="footer">
   <div>
