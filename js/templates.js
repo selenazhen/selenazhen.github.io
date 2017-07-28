@@ -16,8 +16,8 @@ templates['navigation'] = template({"compiler":[7,">= 4.0.0"],"main":function(co
     + "\"><a href=\"architecture.html\">architecture</a></li>\n        <li class=\""
     + alias4(((helper = (helper = helpers.navlinkoptionuidesign || (depth0 != null ? depth0.navlinkoptionuidesign : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"navlinkoptionuidesign","hash":{},"data":data}) : helper)))
     + "\"><a href=\"uidesign.html\">ui design</a></li>\n        <li class=\""
-    + alias4(((helper = (helper = helpers.navlinkoptionartandphoto || (depth0 != null ? depth0.navlinkoptionartandphoto : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"navlinkoptionartandphoto","hash":{},"data":data}) : helper)))
-    + "\"><a href=\"artandphoto.html\">art and photo</a></li>\n        <li class=\""
+    + alias4(((helper = (helper = helpers.navlinkoptionfun || (depth0 != null ? depth0.navlinkoptionfun : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"navlinkoptionfun","hash":{},"data":data}) : helper)))
+    + "\"><a href=\"fun.html\">fun</a></li>\n        <li class=\""
     + alias4(((helper = (helper = helpers.navlinkoptionabout || (depth0 != null ? depth0.navlinkoptionabout : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"navlinkoptionabout","hash":{},"data":data}) : helper)))
     + "\"><a href=\"about.html\">about</a></li>\n        <li class=\"navlink pull-right hidden-xs\"><a class=\"exiticon\" href=\"index.html\"><img class=\"exiticonsvg\" src=\"img/exitblack.svg\"><img class=\"exiticonsvg\" src=\"img/exithover.svg\"></a></li>\n      </ul>\n    </div>\n  </div>\n</nav>";
 },"useData":true});

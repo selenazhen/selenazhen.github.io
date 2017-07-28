@@ -6,12 +6,15 @@
   font-family: 'DIN Pro Medium'; 
   src: url('fonts/DINProMedium.otf'); /*URL to font*/
 }
+body {
+  overflow: auto;
+}
 body, html {
   height: 100%;
   margin: 0;
   padding: 0;
   font-family: DIN Pro, Roboto Condensed, Arial, Helvetica, sans-serif;
-  overflow-x: hidden;
+
 }
 p {
   font-size: 1em;
@@ -181,10 +184,13 @@ a:hover {
 
 /*PROJECT SECTION BEGIN*/
 .projectpagesection {
+  padding-left: 25px;
+  padding-right: 25px;  
 }
 .projectpagesection .container {
-  margin: 0px auto;
-  padding: 0px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0;
 }
 .projectpagesection .projectbanner {
   border-style: none;
@@ -200,40 +206,53 @@ a:hover {
   font-family: DIN Pro Medium, Roboto Condensed, Arial, Helvetica, sans-serif;
   text-align: center;
   margin-top: 20px;
-  padding-left: 40px;
-  padding-right: 40px;    
 }
-.projectpagesection img {
+.projectpagesection .projectpagerow img {
   width: 100%;
-  height: auto;  
-  padding-left: 25px;
-  padding-right: 25px;
+  height: auto;
 }
-.projectpagesection p {
-  padding-left: 25px;
-  padding-right: 25px;
+.projectpagesection .projectpagerow p {
   text-align: justify; 
 }
-.projectpagesection .projectpagerow {
-  margin-top: 40px;
-}
-.projectpagesection img {
-  width: 100%;
-}
-.projectpagesection p.projectimagecaption {
+.projectpagesection .projectpagerow p.projectimagecaption {
   text-align: center;
-  margin: 5px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: .8em;
 }
-.projectpagesection
+
+/*for specific pages */
+.projectpagesection p#twistshopdrawingsdescription {
+  text-align: justify;  
+  text-align-last: center;
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+}
+.projectpagesection p.citrashopdrawingsdescription {
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+}
 /*PROJECT SECTION END*/
 
 /*SLIDESHOW BEGIN*/
-.slideshow .container {
+.slideshow {
   padding-left: 25px;
-  padding-right: 25px;
-  max-width: 800px;
+  padding-right: 25px; 
+  padding-top: 25px;   
+  padding-bottom: 25px; 
+}
+.slideshow .container {
+  margin: 0 auto;
+  position: relative;
+}
+.slideshow img {
+  width: 100%;
 }
 .slideshow button {
+  position: relative;
   border-style: solid;
   border-width: 1px;
   border-color: black;
@@ -248,10 +267,10 @@ a:hover {
   box-shadow: 0 0 5px #212121;
 }
 .slideshow .slidedescription {
+  margin-top: 5px;
   text-align: center;
+  font-size: .8em;  
 }
-
-
 /*SLIDESHOW END*/
 
 

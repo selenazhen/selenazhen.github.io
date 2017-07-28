@@ -11,18 +11,23 @@ var contexttailord = {source: "img/uidesign/tailord/tailord_thumbnail.jpg", titl
 var contextcenterforurbanagriculture = {source: "img/architecture/centerforurbanagriculture/centerforurbanagriculture_thumbnail.jpg", title: "center for urban agriculture", filesource: "centerforurbanagriculture.html"} 
 var contextsacolakewellnesscenter = {source: "img/architecture/sacolakewellnesscenter/sacolakewellnesscenter_thumbnail.jpg", title: "saco lake wellness center", filesource: "sacolakewellnesscenter.html"} 
 var contexturbanincubatorstimulator = {source: "img/architecture/urbanincubatorstimulator/urbanincubatorstimulator_thumbnail.jpg", title: "urban incubator + stimulator", filesource: "urbanincubatorstimulator.html"} 
+var contextphoto = {source: "img/fun/photo/photo_thumbnail.jpg", title: "photo", filesource: "photo.html"} 
+var contextart = {source: "img/fun/art/art_thumbnail.jpg", title: "art", filesource: "art.html"} 
+var contextportraits = {source: "img/fun/photo/portraits/portraits_thumbnail.jpg", title: "portraits", filesource: "portraits.html"} 
+var contextworld = {source: "img/fun/photo/world/world_thumbnail.jpg", title: "world", filesource: "world.html"} 
 
-var contextnavigationall = {navlinkoptionall: "navlink active", navlinkoptionarchitecture: "navlink", navlinkoptionuidesign: "navlink", navlinkoptionartandphoto: "navlink", navlinkoptionabout: "navlink"} 
-var contextnavigationarchitecture = {navlinkoptionall: "navlink", navlinkoptionarchitecture: "navlink active", navlinkoptionuidesign: "navlink", navlinkoptionartandphoto: "navlink", navlinkoptionabout: "navlink"} 
-var contextnavigationuidesign = {navlinkoptionall: "navlink", navlinkoptionarchitecture: "navlink", navlinkoptionuidesign: "navlink active", navlinkoptionartandphoto: "navlink", navlinkoptionabout: "navlink"} 
-var contextnavigationartandphoto = {navlinkoptionall: "navlink", navlinkoptionarchitecture: "navlink", navlinkoptionuidesign: "navlink", navlinkoptionartandphoto: "navlink active", navlinkoptionabout: "navlink"} 
-var contextnavigationabout = {navlinkoptionall: "navlink", navlinkoptionarchitecture: "navlink", navlinkoptionuidesign: "navlink", navlinkoptionartandphoto: "navlink", navlinkoptionabout: "navlink active"} 
+var contextnavigationall = {navlinkoptionall: "navlink active", navlinkoptionarchitecture: "navlink", navlinkoptionuidesign: "navlink", navlinkoptionfun: "navlink", navlinkoptionabout: "navlink"} 
+var contextnavigationarchitecture = {navlinkoptionall: "navlink", navlinkoptionarchitecture: "navlink active", navlinkoptionuidesign: "navlink", navlinkoptionfun: "navlink", navlinkoptionabout: "navlink"} 
+var contextnavigationuidesign = {navlinkoptionall: "navlink", navlinkoptionarchitecture: "navlink", navlinkoptionuidesign: "navlink active", navlinkoptionfun: "navlink", navlinkoptionabout: "navlink"} 
+var contextnavigationfun = {navlinkoptionall: "navlink", navlinkoptionarchitecture: "navlink", navlinkoptionuidesign: "navlink", navlinkoptionfun: "navlink active", navlinkoptionabout: "navlink"} 
+var contextnavigationabout = {navlinkoptionall: "navlink", navlinkoptionarchitecture: "navlink", navlinkoptionuidesign: "navlink", navlinkoptionfun: "navlink", navlinkoptionabout: "navlink active"} 
 
 var contextpagenameall = {pagename: "all projects"} 
 var contextpagenamearchitecture = {pagename: "architecture"} 
 var contextpagenameuidesign = {pagename: "ui design"} 
-var contextpagenameartandphoto = {pagename: "art and photo"} 
+var contextpagenamefun = {pagename: "fun"} 
 var contextpagenameabout = {pagename: "selena zhen"} 
+var contextpagenamephoto = {pagename: "photo"} 
 
 var contextprojectpagenametwist = {pagename: "twist - span", location: "Carnegie Mellon University", schoolyear: "First Year", semester: "Spring 2016"} 
 var contextprojectpagenamecitra = {pagename: "citra - hoop house", location: "Carnegie Mellon University", schoolyear: "Second Year", semester: "Fall 2016"} 
@@ -36,10 +41,13 @@ var contextprojectpagenametailord = {pagename: "tailor'd", location: "Identity |
 var contextprojectpagenamecenterforurbanagriculture = {pagename: "center for urban agriculture", location: "Carnegie Mellon University", schoolyear: "Second Year", semester: "Fall 2016"} 
 var contextprojectpagenamesacolakewellnesscenter = {pagename: "saco lake wellness center", location: "Carnegie Mellon University", schoolyear: "Second Year", semester: "Spring 2017"} 
 var contextprojectpagenameurbanincubatorstimulator = {pagename: "urban incubator + stimulator", location: "Carnegie Mellon University", schoolyear: "Second Year", semester: "Spring 2017"} 
+var contextprojectpagenameportraits = {pagename: "portraits", schoolyear: "Selena Zhen", semester: "2016-Present"} 
+var contextprojectpagenameart = {pagename: "art", schoolyear: "Selena Zhen", semester: "2014-Present"} 
+var contextprojectpagenameworld = {pagename: "world", schoolyear: "Selena Zhen", semester: "2014-Present"} 
 
 
-var contextprojectdescriptiontwist = {goal: "GOAL: to collaborate with a partner to design and build a full-scale, furniture-sized wood structure spanning between two supports that can carry substantial loads from above (e.g. a small person). It needed to focus on creative and tectonic expression, as well as efficiency, structural performance, and stability.", description1: "PROCESS: Initially, we combined our ideas and tried many different designs before deciding to focus and iterate upon our final concept. Many of these initial designs focused on the structural aspect of a “skin.” This eventually led to our first half-scale model, where we incorporated structure in our “twist” concept. Our second half-scale model then focused on finalizing our design, and put us on the path to creating workable joinery.", description2: "FINAL DESIGN - SHOP DRAWINGS: In order to build this model, we created shop drawings of our design, focusing on representation and clarity. We used these series of drawings for measurements and instructions for the cut and assembly of our final span project.", partner: "In Collaboration with Harshvardhan Kedia."}
-var contextprojectdescriptioncitra = {goal: "GOAL: to design and build a portable greenhouse to extend the growing season of a raised planting bed in an urban garden.", description1: "The word “CITRA”, of Latin origin, translates to “without,” which drove the creation of a collaborative hoop house project that emphasizes the importance of accessibility, removing unnecessary structure that could obstruct a user’s reach. CITRA uses a unique cantilever system to leave an entire side completely open at the user’s discretion. This design choice is complemented by a spooled system, which can unroll and clip together per the user’s purposes. The form mimics its contextual situation on the roof of the David L. Lawrence Convention Center in the Cultural District of Pittsburgh, PA, meeting the lower slope of the roof line and drawing forth the steep angle of the building. These systems work in tandem to create a hoop house that achieves ideal ventilation and enclosure, provides the most accessibility possible, and interacts positively with the geometric patterns found in its context.", partner: "In collaboration with Kornrat Euchukanonchai, Kevin Jiang, David Kim, Hamza Qureshi."}
+var contextprojectdescriptiontwist = {goal: "GOAL: to collaborate with a partner to design and build a full-scale, furniture-sized wood structure spanning between two supports that can carry substantial loads from above (e.g. a small person). It needed to focus on creative and tectonic expression, as well as efficiency, structural performance, and stability.", description1: "PROCESS: Initially, we combined our ideas and tried many different designs before deciding to focus and iterate upon our final concept. Many of these initial designs focused on the structural aspect of a “skin.” This eventually led to our first half-scale model, where we incorporated structure in our “twist” concept. Our second half-scale model then focused on finalizing our design, and put us on the path to creating workable joinery.", partner: "In Collaboration with Harshvardhan Kedia."}
+var contextprojectdescriptioncitra = {goal: "GOAL: to design and build a portable greenhouse to extend the growing season of a raised planting bed in an urban garden.", description1: "The word “CITRA”, of Latin origin, translates to “without,” which drove the creation of a collaborative hoop house project that emphasizes the importance of accessibility, removing unnecessary structure that could obstruct a user’s reach. CITRA uses a unique cantilever system to leave an entire side completely open at the user’s discretion. This design choice is complemented by a spooled system, which can unroll and clip together per the user’s purposes. The form mimics its contextual situation on the roof of the David L. Lawrence Convention Center in the Cultural District of Pittsburgh, PA, meeting the lower slope of the roof line and drawing forth the steep angle of the building. These systems work in tandem to create a hoop house that achieves ideal ventilation and enclosure, provides the most accessibility possible, and interacts positively with the geometric patterns found in its context.", partner: "In collaboration with Kornrat Euchukanonchai, Kevin Jiang, David Kim, and Hamza Qureshi."}
 var contextprojectdescriptionsendthatgift = {description1: "Send that Gift makes it easier to send gifts to friends and family all across the world by expediting the gift-giving process. All that is required is for you to pick a gift, then enter your billing information and recipient’s email address. Send that Gift will email them to ask for their address and ship your gift after they reply!", partner: "In collaboration with Zinc Technologies Inc. [http://zinc.io] and Jason Ma."}
 var contextprojectdescriptionpriceyak = {description1: "priceyak asldjfa;lsdkjfasdfasdasdfacross the world by expediting the gift-giving process. All that is required is for you to pick a gift, then enter your billasfasdfasdfing information and recipient’s email address. Send that Gift will email them to ask for their address and ship your gift after they reply!", partner: "In collaboration with Zinc Technologies Inc. [http://zinc.io] and Jason Ma."}
 var contextprojectdescriptionzinchomepage = {description1: "zinc zinc zinc", partner: "In collaboration with Zinc Technologies Inc. [http://zinc.io] and Jason Ma."}
@@ -70,18 +78,23 @@ var resulttailord = Handlebars.templates.thumbnail(contexttailord);
 var resultcenterforurbanagriculture = Handlebars.templates.thumbnail(contextcenterforurbanagriculture);
 var resultsacolakewellnesscenter = Handlebars.templates.thumbnail(contextsacolakewellnesscenter);
 var resulturbanincubatorstimulator = Handlebars.templates.thumbnail(contexturbanincubatorstimulator);
+var resultphoto = Handlebars.templates.thumbnail(contextphoto);
+var resultart = Handlebars.templates.thumbnail(contextart);
+var resultportraits = Handlebars.templates.thumbnail(contextportraits);
+var resultworld = Handlebars.templates.thumbnail(contextworld);
 
 var resultnavigationall = Handlebars.templates.navigation(contextnavigationall);
 var resultnavigationarchitecture = Handlebars.templates.navigation(contextnavigationarchitecture);
 var resultnavigationuidesign = Handlebars.templates.navigation(contextnavigationuidesign);
-var resultnavigationartandphoto = Handlebars.templates.navigation(contextnavigationartandphoto);
+var resultnavigationfun = Handlebars.templates.navigation(contextnavigationfun);
 var resultnavigationabout = Handlebars.templates.navigation(contextnavigationabout);
 
 var resultpagenameall = Handlebars.templates.pagename(contextpagenameall);
 var resultpagenamearchitecture = Handlebars.templates.pagename(contextpagenamearchitecture);
 var resultpagenameuidesign = Handlebars.templates.pagename(contextpagenameuidesign);
-var resultpagenameartandphoto = Handlebars.templates.pagename(contextpagenameartandphoto);
+var resultpagenamefun = Handlebars.templates.pagename(contextpagenamefun);
 var resultpagenameabout = Handlebars.templates.pagename(contextpagenameabout);
+var resultpagenamephoto = Handlebars.templates.pagename(contextpagenamephoto);
 
 var resultprojectpagenametwist = Handlebars.templates.projectpagename(contextprojectpagenametwist);
 var resultprojectpagenamecitra = Handlebars.templates.projectpagename(contextprojectpagenamecitra);
@@ -95,6 +108,9 @@ var resultprojectpagenametailord = Handlebars.templates.projectpagename(contextp
 var resultprojectpagenamecenterforurbanagriculture = Handlebars.templates.projectpagename(contextprojectpagenamecenterforurbanagriculture);
 var resultprojectpagenamesacolakewellnesscenter = Handlebars.templates.projectpagename(contextprojectpagenamesacolakewellnesscenter);
 var resultprojectpagenameurbanincubatorstimulator = Handlebars.templates.projectpagename(contextprojectpagenameurbanincubatorstimulator);
+var resultprojectpageportraits = Handlebars.templates.projectpagename(contextprojectpagenameportraits);
+var resultprojectpagenameart = Handlebars.templates.projectpagename(contextprojectpagenameart);
+var resultprojectpagenameworld = Handlebars.templates.projectpagename(contextprojectpagenameworld);
 
 var resultprojectdescriptiontwist = Handlebars.templates.projectdescription(contextprojectdescriptiontwist);
 var resultprojectdescriptioncitra = Handlebars.templates.projectdescription(contextprojectdescriptioncitra);
@@ -152,6 +168,18 @@ $(function() {
 $(function() {
   $("#thumbnail_urbanincubatorstimulator").html(resulturbanincubatorstimulator);
 });
+$(function() {
+  $("#thumbnail_photo").html(resultphoto);
+});
+$(function() {
+  $("#thumbnail_art").html(resultart);
+});
+$(function() {
+  $("#thumbnail_portraits").html(resultportraits);
+});
+$(function() {
+  $("#thumbnail_world").html(resultworld);
+});
 
 $(function() {
   $("#navigationall").html(resultnavigationall);
@@ -163,7 +191,7 @@ $(function() {
   $("#navigationuidesign").html(resultnavigationuidesign);
 });
 $(function() {
-  $("#navigationartandphoto").html(resultnavigationartandphoto);
+  $("#navigationfun").html(resultnavigationfun);
 });
 $(function() {
   $("#navigationabout").html(resultnavigationabout);
@@ -179,10 +207,13 @@ $(function() {
   $("#pagenameuidesign").html(resultpagenameuidesign);
 });
 $(function() {
-  $("#pagenameartandphoto").html(resultpagenameartandphoto);
+  $("#pagenamefun").html(resultpagenamefun);
 });
 $(function() {
   $("#pagenameabout").html(resultpagenameabout);
+});
+$(function() {
+  $("#pagenamephoto").html(resultpagenamephoto);
 });
 
 $(function() {
@@ -220,6 +251,15 @@ $(function() {
 });
 $(function() {
   $("#projectpagenameurbanincubatorstimulator").html(resultprojectpagenameurbanincubatorstimulator);
+});
+$(function() {
+  $("#projectpagenameportraits").html(resultprojectpageportraits);
+});
+$(function() {
+  $("#projectpagenameart").html(resultprojectpagenameart);
+});
+$(function() {
+  $("#projectpagenameworld").html(resultprojectpagenameworld);
 });
 
 $(function() {
