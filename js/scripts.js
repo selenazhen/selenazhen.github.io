@@ -15,6 +15,7 @@ var contextphoto = {source: "img/fun/photo/photo_thumbnail.jpg", title: "photo",
 var contextart = {source: "img/fun/art/art_thumbnail.jpg", title: "art", filesource: "art.html"} 
 var contextportraits = {source: "img/fun/photo/portraits/portraits_thumbnail.jpg", title: "portraits", filesource: "portraits.html"} 
 var contextworld = {source: "img/fun/photo/world/world_thumbnail.jpg", title: "world", filesource: "world.html"} 
+var contextmaterialsandassembly = {source: "img/architecture/materialsandassembly/materialsandassembly_thumbnail.jpg", title: "materials and assembly", filesource: "materialsandassembly.html"} 
 
 var contextnavigationall = {navlinkoptionall: "navlink active", navlinkoptionarchitecture: "navlink", navlinkoptionuidesign: "navlink", navlinkoptionfun: "navlink", navlinkoptionabout: "navlink"} 
 var contextnavigationarchitecture = {navlinkoptionall: "navlink", navlinkoptionarchitecture: "navlink active", navlinkoptionuidesign: "navlink", navlinkoptionfun: "navlink", navlinkoptionabout: "navlink"} 
@@ -44,6 +45,7 @@ var contextprojectpagenameurbanincubatorstimulator = {pagename: "urban incubator
 var contextprojectpagenameportraits = {pagename: "portraits", schoolyear: "Selena Zhen", semester: "2016-Present"} 
 var contextprojectpagenameart = {pagename: "art", schoolyear: "Selena Zhen", semester: "2014-Present"} 
 var contextprojectpagenameworld = {pagename: "world", schoolyear: "Selena Zhen", semester: "2014-Present"} 
+var contextprojectpagenamematerialsandassembly = {pagename: "materials and assembly", location: "Carnegie Mellon University", schoolyear: "Second Year", semester: "Spring 2017"} 
 
 
 var contextprojectdescriptiontwist = {goal: "GOAL: to collaborate with a partner to design and build a full-scale, furniture-sized wood structure spanning between two supports that can carry substantial loads from above (e.g. a small person). It needed to focus on creative and tectonic expression, as well as efficiency, structural performance, and stability.", description1: "PROCESS: Initially, we combined our ideas and tried many different designs before deciding to focus and iterate upon our final concept. Many of these initial designs focused on the structural aspect of a “skin.” This eventually led to our first half-scale model, where we incorporated structure in our “twist” concept. Our second half-scale model then focused on finalizing our design, and put us on the path to creating workable joinery.", partner: "In Collaboration with Harshvardhan Kedia."}
@@ -55,8 +57,7 @@ var contextprojectdescriptionlionfish = {description1: "lionfish asjdfa;dLorem i
 var contextprojectdescriptionsubtotal = {description1: "subtotalsdfa asdf ;sld asjdfa;dLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", partner: "In collaboration with Zinc Technologies Inc. [http://zinc.io] and Jason Ma."}
 var contextprojectdescriptionhedgy = {goal: "HACKATHON ENTRY: PennApps 2017 [University of Pennsylvania]", description1: "Inspiration: For this app, we decided to design an educational app for children. It caters to ages 4-8, where development and speaking skills are most important. In order to exercise these skills, HEDGY uses computer  vision [Clarifai API] for identification of objects and combines it with linguistic accuracy [Google Cloud Speech API] to encourage healthy everyday education. The child identifies objects verbally, which is then cross-referenced using speech recognition and object recognition for accuracy in pronunciation and articulation.", partner: "In collaboration with Zinc Technologies Inc. [http://zinc.io] and Jason Ma."}
 var contextprojectdescriptiontailord = {goal: "HACKATHON ENTRY: Carnegie Mellon University", description1: "Inspiration: When we were brainstorming for ideas, we really wanted to create something that was fun to make as well as functional and meaningful. We finalized an idea that was a combination of both something that applied to our daily lives and an application that we could actually potentially use in the future.TAILOR’D focuses on making the most important choice of the day an easy decision; choosing the outfit you’ll wear. With an auto-generating closet based on complementary color palettes, and an easy way to view your closet virtually, you’ll never spend too long trying on outfits in the morning again.", description2: "Framework: For TAILOR’D, we used Ionic as a framework for an iOS app. With Ionic, we used HTML, CSS, and JavaScript to code the front end and all of the user interface/interaction. The backend, written in Python and using Flask, determined which images matched the color palettes and returned that information to our front end.",partner: "In Collaboration with Christina Ou, Kristin Yin, and Tiffany Zhu."}
-var contextprojectdescriptioncenterforurbanagriculture = {goal: "GOAL: to develop a building proposal for a new Grow Pittsbrugh Center for Urban Agriculture in the Allegheny West neighborhood of Pittsburgh, PA. It would serve as a center for supporting gardening, farming, and community activity for the area and the Grow Pittsburgh organization. The program consists of an outreach center for education and community engagement, a barn for tool and equipment lending, and a greenhouse to extend the growing season.", description1: "This proposal emphasizes the community engagement branch of the program  by focusing on circulation paths and a strong axis through the site. The functions and the axis of the building begins to address the social context of the greater area, by bringing together the different neighborhoods that intersect the site. The rest of the program is divided into the public community, market and cafe area (upper floor) and the more private educational and administrative areas (lower floor). The central staircase and outdoor courtyard breaks through the greenhouses to interact with the agricultural aspect of the building’s program.", }
-var contextprojectdescriptionsacolakewellnesscenter = {goal: "GOAL: Expand considerations of materiality and architectural atmosphere to include water, in its various states in the context of a bathhouse. Consider the therapeutic benefits and cultural significance of public baths and spas, and develop an architectural proposal for a Wellness Center. Reference ancient traditions that utilize water of various temperatures and states to rejuvenate and heal.", description1: "SITE: Near the Appalachian Mountain Club (AMC) Highland Center Lodge in the mountatins of New Hampshire."}
+var contextprojectdescriptioncenterforurbanagriculture = {goal: "GOAL: to develop a building proposal for a new Grow Pittsburgh Center for Urban Agriculture in the Allegheny West neighborhood of Pittsburgh, PA. It would serve as a center for supporting gardening, farming, and community activity for the area and the Grow Pittsburgh organization. The program consists of an outreach center for education and community engagement, a barn for tool and equipment lending, and a greenhouse to extend the growing season.", description1: "This proposal emphasizes the community engagement branch of the program  by focusing on circulation paths and a strong axis through the site. The functions and the axis of the building begins to address the social context of the greater area, by bringing together the different neighborhoods that intersect the site. The rest of the program is divided into the public community, market and cafe area (upper floor) and the more private educational and administrative areas (lower floor). The central staircase and outdoor courtyard breaks through the greenhouses to interact with the agricultural aspect of the building’s program.", }
 var contextprojectdescriptionurbanincubatorstimulator = {goal: "GOAL: to design a mixed-use project that will contribute to the business vitality of East Liberty’s central business district while nurturing the creative culture of Pittsburgh’s East End. Urban I+S activities and users are intentionally widespread to maximize utilization and impact throughout the day, evening, week and across seasons. The Urban I+S consists of three primary program components: (1) Technology Business (Incubator), (2) New Media Gallery and Event Space (Stimulator), (3) Café. ", description1: "I approached this project by first focusing on the site context and creating ideas of community and public urban flow into the building. With the concept of community in mind, I designed a grand staircase that would serve as a way to vertically connect the exhibition and office spaces within the Urban I+S, and allow for large open areas for new media exhibition.", description2: "More about the Program: Urban I+S compliments the East Liberty Public Library and the Ace Hotel to expand the cultural and educational activities adjacent to the site. While encompassed within one structure, the three program components operate with a degree of autonomy, allowing independent operating hours. The Technology Business Incubator will award grants in the form of physical space resources and advising for small business start-ups for a duration of 6-9 months, through their business launch. The incubator will support up to three start-ups at any given time through flexible office and meeting spaces. The New Media Gallery and Event Space will support a diverse range of activities, including the display of immersive and interactive media art and the production of public events, including performances, lectures, films, and social gatherings. The Café will operate during morning and lunch hours to offer casual dining."}
 
 var contextabouttext = {} 
@@ -82,6 +83,7 @@ var resultphoto = Handlebars.templates.thumbnail(contextphoto);
 var resultart = Handlebars.templates.thumbnail(contextart);
 var resultportraits = Handlebars.templates.thumbnail(contextportraits);
 var resultworld = Handlebars.templates.thumbnail(contextworld);
+var resultmaterialsandassembly = Handlebars.templates.thumbnail(contextmaterialsandassembly);
 
 var resultnavigationall = Handlebars.templates.navigation(contextnavigationall);
 var resultnavigationarchitecture = Handlebars.templates.navigation(contextnavigationarchitecture);
@@ -111,6 +113,7 @@ var resultprojectpagenameurbanincubatorstimulator = Handlebars.templates.project
 var resultprojectpageportraits = Handlebars.templates.projectpagename(contextprojectpagenameportraits);
 var resultprojectpagenameart = Handlebars.templates.projectpagename(contextprojectpagenameart);
 var resultprojectpagenameworld = Handlebars.templates.projectpagename(contextprojectpagenameworld);
+var resultprojectpagenamematerialsandassembly = Handlebars.templates.projectpagename(contextprojectpagenamematerialsandassembly);
 
 var resultprojectdescriptiontwist = Handlebars.templates.projectdescription(contextprojectdescriptiontwist);
 var resultprojectdescriptioncitra = Handlebars.templates.projectdescription(contextprojectdescriptioncitra);
@@ -122,7 +125,6 @@ var resultprojectdescriptionsubtotal = Handlebars.templates.projectdescription(c
 var resultprojectdescriptionhedgy = Handlebars.templates.projectdescription(contextprojectdescriptionhedgy);
 var resultprojectdescriptiontailord = Handlebars.templates.projectdescription(contextprojectdescriptiontailord);
 var resultprojectdescriptioncenterforurbanagriculture = Handlebars.templates.projectdescription(contextprojectdescriptioncenterforurbanagriculture);
-var resultprojectdescriptionsacolakewellnesscenter = Handlebars.templates.projectdescription(contextprojectdescriptionsacolakewellnesscenter);
 var resultprojectdescriptionsurbanincubatorstimulator = Handlebars.templates.projectdescription(contextprojectdescriptionurbanincubatorstimulator);
 
 var resultabouttext = Handlebars.templates.abouttext(contextabouttext);
@@ -179,6 +181,9 @@ $(function() {
 });
 $(function() {
   $("#thumbnail_world").html(resultworld);
+});
+$(function() {
+  $("#thumbnail_materialsandassembly").html(resultmaterialsandassembly);
 });
 
 $(function() {
@@ -261,6 +266,10 @@ $(function() {
 $(function() {
   $("#projectpagenameworld").html(resultprojectpagenameworld);
 });
+$(function() {
+  $("#projectpagenamematerialsandassembly").html(resultprojectpagenamematerialsandassembly);
+});
+
 
 $(function() {
   $("#projectdescriptiontwist").html(resultprojectdescriptiontwist);
@@ -291,9 +300,6 @@ $(function() {
 });
 $(function() {
   $("#projectdescriptioncenterforurbanagriculture").html(resultprojectdescriptioncenterforurbanagriculture);
-});
-$(function() {
-  $("#projectdescriptionsacolakewellnesscenter").html(resultprojectdescriptionsacolakewellnesscenter);
 });
 $(function() {
   $("#projectdescriptionurbanincubatorstimulator").html(resultprojectdescriptionsurbanincubatorstimulator);
