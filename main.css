@@ -158,12 +158,18 @@ a:visted {
   box-shadow: none;
   padding: 20px;
 }
-.thumbnailsection .thumbnail img.thumbnailimg {
+.thumbnailsection .thumbnail img.thumbnailimg, .thumbnailsection .smallthumbnail img.thumbnailimg {
   width: 100%;
 }
 .thumbnailsection .thumbnail p {
   font-family: DIN Pro Medium, Roboto Condensed, Arial, Helvetica, sans-serif;
   margin-top: 10px;
+  text-align: center;
+}
+.thumbnailsection .smallthumbnail p {
+  font-family: DIN Pro Medium, Roboto Condensed, Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  font-size: .6em;
   text-align: center;
 }
 .thumbnailsection h1 {
@@ -279,6 +285,48 @@ ul#sacolakeprocesslist {
 }
 .materialsandassemblymaxwidth {
   max-width: 800px;
+}
+.projectpagesection p.urbanincubatorstimulatorright {
+  text-align: justify;
+}
+.projectpagesection p.urbanincubatorstimulatorcenter {
+  text-align: justify;  
+  text-align-last: center;
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+}
+.tailordmaxwidth {
+  max-width: 780px;
+}
+.tailordpage {
+  margin-top: 20px;
+}
+.tailordpageborder {
+  border-style: solid;
+  border-color: #eee;
+  border-width: 1px;
+}
+.hedgymaxwidth {
+  max-width: 780px;
+}
+.hedgypage {
+  margin-top: 20px;
+}
+.hedgypageborder {
+  border-style: solid;
+  border-color: #eee;
+  border-width: 1px;
+}
+.projectpagesection p.sendthatgiftcenter {
+  text-align: justify;  
+  text-align-last: center;
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+}
+p.sendtthatgiftcheckoutmaxwidth {
+  max-width: 300px;
 }
 /*PROJECT SECTION END*/
 
