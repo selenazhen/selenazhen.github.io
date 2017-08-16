@@ -22,7 +22,7 @@ p {
 }
 h1 {
   font-size: 2.5em;
-  font-family: Din Pro, 'PT Sans', 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: Din Pro Medium, 'PT Sans', 'Roboto', Arial, Helvetica, sans-serif;
 }
 h2 {
   font-size: 1.75em;
@@ -39,7 +39,7 @@ hr {
   border-top: 2px solid #eee;
   width: 250px;
 }
-a {
+a:link {
   color: #c64848;
   text-decoration: none;
   font-family: Din Pro, 'PT Sans', 'Roboto', Arial, Helvetica, sans-serif;
@@ -52,11 +52,10 @@ a:active {
   color: #eea7a7;
   text-decoration: none;
 }
-a:visted {
+a:visited {
   color: #eea7a7;
   text-decoration: none;
 }
-
 
 
 /*NAVBAR BEGIN*/
@@ -338,6 +337,11 @@ p.sendtthatgiftcheckoutmaxwidth {
   margin: auto;
   position: relative;
 }
+.guidelinemargin {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px #eee solid;
+}
 /*PROJECT SECTION END*/
 
 
@@ -359,7 +363,7 @@ p.sendtthatgiftcheckoutmaxwidth {
   position: relative;
   border-style: solid;
   border-width: 1px;
-  border-color: black;
+  border-color: #eee;
   border-radius: 2px;
   background-color: white;
   stroke: #dd5050;
@@ -368,7 +372,7 @@ p.sendtthatgiftcheckoutmaxwidth {
 }
 .slideshow button:focus {
   outline: none !important;
-  box-shadow: 0 0 5px #212121;
+  box-shadow: 0 0 5px #ddd;
 }
 .slideshow .slidedescription {
   margin-top: 5px;
