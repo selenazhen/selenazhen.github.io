@@ -342,6 +342,19 @@ p.sendtthatgiftcheckoutmaxwidth {
   margin-bottom: 15px;
   border: 1px #eee solid;
 }
+#archivesection h2 {
+  font-family: Din Pro Medium, 'PT Sans', 'Roboto', Arial, Helvetica, sans-serif; 
+  text-align: left;
+}
+#archivesection a.archiveobject {
+  color: #c64848;
+  text-decoration: none;
+  font-family: Din Pro, 'PT Sans', 'Roboto', Arial, Helvetica, sans-serif;
+}
+#archivesection a.archiveobject:hover {
+  color: #eea7a7;
+  text-decoration: none;
+}
 /*PROJECT SECTION END*/
 
 
