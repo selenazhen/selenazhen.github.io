@@ -448,7 +448,6 @@ p.sendtthatgiftcheckoutmaxwidth {
   position:absolute;
   margin-left: 60px; 
   margin-top: 60px;
-  cursor: pointer;
 }
 .svglogo {
   width: 200px; 
@@ -456,22 +455,24 @@ p.sendtthatgiftcheckoutmaxwidth {
   margin-left: auto; 
   margin-right: auto; 
   position: relative; 
-  cursor: pointer;
 }
 .svglogo:hover {
-  cursor: pointer;
 }
 #svg-container{
   display: flex;
   align-items: center;
   height: 100%;
   overflow: none;
-  cursor: pointer;
+}
+svg {
+  cursor: default;
 }
 svg circle:hover  { 
   fill: #dd5050;
   cursor: pointer;
 }
+/*LANDING PAGE END*/
+
 
 /*LOGO ANIMATION -- DO NOT TOUCH -- BEGIN*/
 .dashed{
