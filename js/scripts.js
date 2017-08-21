@@ -46,6 +46,8 @@ var contextprojectpagenameportraits = {pagename: "portraits", schoolyear: "Selen
 var contextprojectpagenameart = {pagename: "art", schoolyear: "Selena Zhen", semester: "2014-Present"} 
 var contextprojectpagenameworld = {pagename: "world", schoolyear: "Selena Zhen", semester: "2014-Present"} 
 var contextprojectpagenamematerialsandassembly = {pagename: "materials and assembly", location: "Carnegie Mellon University", schoolyear: "Second Year", semester: "Spring 2017"} 
+var contextprojectpagenamecasestudies = {pagename: "case studies: waldorf school of pittsburgh", location: "Carnegie Mellon University", schoolyear: "Second Year", semester: "Fall 2016"} 
+var contextprojectpagenamehumanfactors = {pagename: "human factors: tazza d'oro", location: "Carnegie Mellon University", schoolyear: "Second Year", semester: "Fall 2016"} 
 
 
 var contextprojectdescriptiontwist = {goal: "GOAL: to collaborate with a partner to design and build a full-scale, furniture-sized wood structure spanning between two supports that can carry substantial loads from above (e.g. a small person). It needed to focus on creative and tectonic expression, as well as efficiency, structural performance, and stability.", description1: "PROCESS: Initially, we combined our ideas and tried many different designs before deciding to focus and iterate upon our final concept. Many of these initial designs focused on the structural aspect of a “skin.” This eventually led to our first half-scale model, where we incorporated structure in our “twist” concept. Our second half-scale model then focused on finalizing our design, and put us on the path to creating workable joinery.", partner: "In Collaboration with Harshvardhan Kedia"}
@@ -59,6 +61,8 @@ var contextprojectdescriptionhedgy = {goal: "HACKATHON ENTRY: PennApps 2017 [Uni
 var contextprojectdescriptiontailord = {goal: "HACKATHON ENTRY: Carnegie Mellon University", description1: "Inspiration: When we were brainstorming for ideas, we really wanted to create something that was fun to make as well as functional and meaningful. We finalized an idea that was a combination of both something that applied to our daily lives and an application that we could actually potentially use in the future.TAILOR’D focuses on making the most important choice of the day an easy decision; choosing the outfit you’ll wear. With an auto-generating closet based on complementary color palettes, and an easy way to view your closet virtually, you’ll never spend too long trying on outfits in the morning again.", description2: "Framework: For TAILOR’D, we used Ionic as a framework for an iOS app. With Ionic, we used HTML, CSS, and JavaScript to code the front end and all of the user interface/interaction. The backend, written in Python and using Flask, determined which images matched the color palettes and returned that information to our front end.", description3: "Awarded Best Mobile App", partner: "In Collaboration with Christina Ou, Kristin Yin, and Tiffany Zhu"}
 var contextprojectdescriptioncenterforurbanagriculture = {goal: "GOAL: to develop a building proposal for a new Grow Pittsburgh Center for Urban Agriculture in the Allegheny West neighborhood of Pittsburgh, PA. It would serve as a center for supporting gardening, farming, and community activity for the area and the Grow Pittsburgh organization. The program consists of an outreach center for education and community engagement, a barn for tool and equipment lending, and a greenhouse to extend the growing season.", description1: "This proposal emphasizes the community engagement branch of the program  by focusing on circulation paths and a strong axis through the site. The functions and the axis of the building begins to address the social context of the greater area, by bringing together the different neighborhoods that intersect the site. The rest of the program is divided into the public community, market and cafe area (upper floor) and the more private educational and administrative areas (lower floor). The central staircase and outdoor courtyard breaks through the greenhouses to interact with the agricultural aspect of the building’s program.", }
 var contextprojectdescriptionurbanincubatorstimulator = {goal: "GOAL: to design a mixed-use project that will contribute to the business vitality of East Liberty’s central business district while nurturing the creative culture of Pittsburgh’s East End. Urban I+S activities and users are intentionally widespread to maximize utilization and impact throughout the day, evening, week and across seasons. The Urban I+S consists of three primary program components: (1) Technology Business (Incubator), (2) New Media Gallery and Event Space (Stimulator), (3) Café. ", description1: "I approached this project by first focusing on the site context and creating ideas of community and public urban flow into the building. With the concept of community in mind, I designed a grand staircase that would serve as a way to vertically connect the exhibition and office spaces within the Urban I+S, and allow for large open areas for new media exhibition." }
+var contextprojectdescriptioncasestudies = {goal: "This case study project investigated Waldorf School of Pittsburgh, a local private school in Pittsburgh, PA. Diagrams and drawings were created to illustrate and investigate their curriculum approach, facility layout, urban location, and ideas to improve their school.", partner: "Ghalya Al Sanea, Gunn Chaiyapatranun, Jack Fogel, Alina Kramkova, Judy Li, Michael Powell, and Hamza Qureshi" }
+var contextprojectdescriptionhumanfactors = {goal: "This course explored how human factors influence the design, construction and occupancy of the environments we create, and the relationships between space and our bodies and senses. It examines how the spaces we occupy affect our perception of ourselves and others, as well as how other fields address and contribute to these relationships. This also explores how these relationships have influenced the formation of architectural theory.", description2: " The observation journal presents concepts in increasing scales—from the body scale to the urban setting. Chapters include content about Body + Senses, Perception + Cognition, Behavior + Environment, and Social+ Environment.", partner: "In collaboration with Emily DeGrandpre, Annie Zhang, and Christine Zhu" }
 
 var contextabouttext = {} 
 var contextaboutimage = {} 
@@ -116,6 +120,9 @@ var resultprojectpageportraits = Handlebars.templates.projectpagename(contextpro
 var resultprojectpagenameart = Handlebars.templates.projectpagename(contextprojectpagenameart);
 var resultprojectpagenameworld = Handlebars.templates.projectpagename(contextprojectpagenameworld);
 var resultprojectpagenamematerialsandassembly = Handlebars.templates.projectpagename(contextprojectpagenamematerialsandassembly);
+var resultprojectpagenamecasestudies = Handlebars.templates.projectpagename(contextprojectpagenamecasestudies);
+var resultprojectpagenamehumanfactors = Handlebars.templates.projectpagename(contextprojectpagenamehumanfactors);
+
 
 var resultprojectdescriptiontwist = Handlebars.templates.projectdescription(contextprojectdescriptiontwist);
 var resultprojectdescriptioncitra = Handlebars.templates.projectdescription(contextprojectdescriptioncitra);
@@ -127,7 +134,9 @@ var resultprojectdescriptionsubtotal = Handlebars.templates.projectdescription(c
 var resultprojectdescriptionhedgy = Handlebars.templates.projectdescription(contextprojectdescriptionhedgy);
 var resultprojectdescriptiontailord = Handlebars.templates.projectdescription(contextprojectdescriptiontailord);
 var resultprojectdescriptioncenterforurbanagriculture = Handlebars.templates.projectdescription(contextprojectdescriptioncenterforurbanagriculture);
-var resultprojectdescriptionsurbanincubatorstimulator = Handlebars.templates.projectdescription(contextprojectdescriptionurbanincubatorstimulator);
+var resultprojectdescriptionurbanincubatorstimulator = Handlebars.templates.projectdescription(contextprojectdescriptionurbanincubatorstimulator);
+var resultprojectdescriptioncasestudies = Handlebars.templates.projectdescription(contextprojectdescriptioncasestudies);
+var resultprojectdescriptionhumanfactors = Handlebars.templates.projectdescription(contextprojectdescriptionhumanfactors);
 
 var resultabouttext = Handlebars.templates.abouttext(contextabouttext);
 var resultaboutimage = Handlebars.templates.aboutimage(contextaboutimage);
@@ -273,6 +282,12 @@ $(function() {
 $(function() {
   $("#projectpagenamematerialsandassembly").html(resultprojectpagenamematerialsandassembly);
 });
+$(function() {
+  $("#projectpagenamecasestudies").html(resultprojectpagenamecasestudies);
+});
+$(function() {
+  $("#projectpagenamehumanfactors").html(resultprojectpagenamehumanfactors);
+});
 
 
 $(function() {
@@ -306,8 +321,15 @@ $(function() {
   $("#projectdescriptioncenterforurbanagriculture").html(resultprojectdescriptioncenterforurbanagriculture);
 });
 $(function() {
-  $("#projectdescriptionurbanincubatorstimulator").html(resultprojectdescriptionsurbanincubatorstimulator);
+  $("#projectdescriptionurbanincubatorstimulator").html(resultprojectdescriptionurbanincubatorstimulator);
 });
+$(function() {
+  $("#projectdescriptioncasestudies").html(resultprojectdescriptioncasestudies);
+});
+$(function() {
+  $("#projectdescriptionhumanfactors").html(resultprojectdescriptionhumanfactors);
+});
+
 
 $(function() {
   $("#abouttext").html(resultabouttext);

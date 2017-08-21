@@ -40,6 +40,9 @@ hr {
   width: 250px;
 }
 a:link {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
   color: #c64848;
   text-decoration: none;
   font-family: Din Pro, 'PT Sans', 'Roboto', Arial, Helvetica, sans-serif;
@@ -286,9 +289,6 @@ ul#sacolakeprocesslist {
   margin: auto;
   position: relative;
 }
-.materialsandassemblymaxwidth {
-  max-width: 800px;
-}
 .projectpagesection p.urbanincubatorstimulatorright {
   text-align: justify;
 }
@@ -391,6 +391,11 @@ p.sendtthatgiftcheckoutmaxwidth {
   margin-top: 5px;
   text-align: center;
   font-size: .8em;  
+}
+.slideshow .slidesmaxwidth {
+  max-width: 900px;
+  margin: auto;
+  position: relative;
 }
 /*SLIDESHOW END*/
 
