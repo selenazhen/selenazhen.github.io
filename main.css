@@ -151,18 +151,24 @@ a:visited {
 /*NAVBAR END*/
 
 
+
 /*THUMBNAIL BEGIN*/
 .thumbnailsection {
+  margin: 0 20px 20px 20px auto;
 }
 .thumbnailsection .container {
-  margin: 0px auto;
-  padding-left: 20px;
-  padding-right: 20px;  
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.thumbnailsection .row {
+  margin: 0 auto;
+  padding: 0 auto;
 }
 .thumbnailsection .thumbnail {
   border-style: none;
   box-shadow: none;
-  padding: 20px;
+  padding: 8px;
+  margin: 0 auto;
 }
 .thumbnailsection .thumbnail img.thumbnailimg, .thumbnailsection .smallthumbnail img.thumbnailimg {
   width: 100%;
@@ -174,14 +180,14 @@ a:visited {
 }
 .thumbnailsection .smallthumbnail p {
   font-family: Din Pro Medium, 'PT Sans', 'Roboto', Arial, Helvetica, sans-serif;
-  margin-top: 10px;
+  margin-top: 5px;
   font-size: .6em;
   text-align: center;
 }
 .thumbnailsection h1 {
   font-family: Din Pro Medium, 'PT Sans', 'Roboto', Arial, Helvetica, sans-serif;
   text-align: center;
-  margin-top: 20px;
+  /*margin-top: 20px;*/
   margin-bottom: 50px;
 }
 .image {
@@ -345,6 +351,8 @@ p.sendtthatgiftcheckoutmaxwidth {
 #archivesection h2 {
   font-family: Din Pro Medium, 'PT Sans', 'Roboto', Arial, Helvetica, sans-serif; 
   text-align: left;
+  margin: 0;
+  padding:0;
 }
 #archivesection a.archiveobject {
   color: #c64848;

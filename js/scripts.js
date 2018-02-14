@@ -18,6 +18,10 @@ var contextart = {source: "img/fun/art/art_thumbnail.jpg", title: "art", filesou
 var contextportraits = {source: "img/fun/photo/portraits/portraits_thumbnail.jpg", title: "portraits", filesource: "portraits.html"} 
 var contextworld = {source: "img/fun/photo/world/world_thumbnail.jpg", title: "world", filesource: "world.html"} 
 var contextmaterialsandassembly = {source: "img/architecture/materialsandassembly/materialsandassembly_thumbnail.jpg", title: "materials and assembly", filesource: "materialsandassembly.html"} 
+var contextenvironmentformfeedback = {source: "img/architecture/environmentformfeedback/environmentformfeedback_thumbnail.jpg", title: "environment form & feedback", filesource: "environmentformfeedback.html"} 
+var contextplanetparasite = {source: "img/uidesign/planetparasite/planetparasite_thumbnail.jpg", title: "planet parasite", filesource: "planetparasite.html"} 
+
+
 
 var resulttwist = Handlebars.templates.thumbnail(contexttwist);
 var resultcitra = Handlebars.templates.thumbnail(contextcitra);
@@ -36,6 +40,8 @@ var resultart = Handlebars.templates.thumbnail(contextart);
 var resultportraits = Handlebars.templates.thumbnail(contextportraits);
 var resultworld = Handlebars.templates.thumbnail(contextworld);
 var resultmaterialsandassembly = Handlebars.templates.thumbnail(contextmaterialsandassembly);
+var resultenvironmentformfeedback = Handlebars.templates.thumbnail(contextenvironmentformfeedback);
+var resultplanetparasite = Handlebars.templates.thumbnail(contextplanetparasite);
 
 $(function() {
   $("#thumbnail_twist").html(resulttwist);
@@ -87,6 +93,12 @@ $(function() {
 });
 $(function() {
   $("#thumbnail_materialsandassembly").html(resultmaterialsandassembly);
+});
+$(function() {
+  $("#thumbnail_environmentformfeedback").html(resultenvironmentformfeedback);
+});
+$(function() {
+  $("#thumbnail_planetparasite").html(resultplanetparasite);
 });
 
 // ------------- navigation links
@@ -175,6 +187,8 @@ var contextprojectpagenameworld = {pagename: "world", schoolyear: "Selena Zhen",
 var contextprojectpagenamematerialsandassembly = {pagename: "materials and assembly", location: "Carnegie Mellon University", schoolyear: "Second Year", semester: "Spring 2017"} 
 var contextprojectpagenamecasestudies = {pagename: "case studies: waldorf school of pittsburgh", location: "Carnegie Mellon University", schoolyear: "Second Year", semester: "Fall 2016"} 
 var contextprojectpagenamehumanfactors = {pagename: "human factors: tazza d'oro", location: "Carnegie Mellon University", schoolyear: "Second Year", semester: "Fall 2016"} 
+var contextprojectpagenameenvironmentformfeedback = {pagename: "environment form & feedback", location: "Carnegie Mellon University", schoolyear: "Third Year", semester: "Fall 2017"} 
+var contextprojectpagenameplanetparasite = {pagename: "planet parasite", location: "Carnegie Mellon University | 15-112 Fundamentals of Programming and Computer Science", schoolyear: "Third Year", semester: "Fall 2017"} 
 
 var resultprojectpagenametwist = Handlebars.templates.projectpagename(contextprojectpagenametwist);
 var resultprojectpagenamecitra = Handlebars.templates.projectpagename(contextprojectpagenamecitra);
@@ -194,6 +208,8 @@ var resultprojectpagenameworld = Handlebars.templates.projectpagename(contextpro
 var resultprojectpagenamematerialsandassembly = Handlebars.templates.projectpagename(contextprojectpagenamematerialsandassembly);
 var resultprojectpagenamecasestudies = Handlebars.templates.projectpagename(contextprojectpagenamecasestudies);
 var resultprojectpagenamehumanfactors = Handlebars.templates.projectpagename(contextprojectpagenamehumanfactors);
+var resultprojectpagenameenvironmentformfeedback = Handlebars.templates.projectpagename(contextprojectpagenameenvironmentformfeedback);
+var resultprojectpagenameplanetparasite = Handlebars.templates.projectpagename(contextprojectpagenameplanetparasite);
 
 $(function() {
   $("#projectpagenametwist").html(resultprojectpagenametwist);
@@ -249,6 +265,12 @@ $(function() {
 $(function() {
   $("#projectpagenamehumanfactors").html(resultprojectpagenamehumanfactors);
 });
+$(function() {
+  $("#projectpagenameenvironmentformfeedback").html(resultprojectpagenameenvironmentformfeedback);
+});
+$(function() {
+  $("#projectpagenameplanetparasite").html(resultprojectpagenameplanetparasite);
+});
 
 // -------------  project page descriptions
 
@@ -265,6 +287,8 @@ var contextprojectdescriptioncenterforurbanagriculture = {goal: "GOAL: to develo
 var contextprojectdescriptionurbanincubatorstimulator = {goal: "GOAL: to design a mixed-use project that will contribute to the business vitality of East Liberty’s central business district while nurturing the creative culture of Pittsburgh’s East End. Urban I+S activities and users are intentionally widespread to maximize utilization and impact throughout the day, evening, week and across seasons. The Urban I+S consists of three primary program components: (1) Technology Business (Incubator), (2) New Media Gallery and Event Space (Stimulator), (3) Café. ", description1: "I approached this project by first focusing on the site context and creating ideas of community and public urban flow into the building. With the concept of community in mind, I designed a grand staircase that would serve as a way to vertically connect the exhibition and office spaces within the Urban I+S, and allow for large open areas for new media exhibition." }
 var contextprojectdescriptioncasestudies = {goal: "This case study project investigated Waldorf School of Pittsburgh, a local private school in Pittsburgh, PA. Diagrams and drawings were created to illustrate and investigate their curriculum approach, facility layout, urban location, and ideas to improve their school.", partner: "Ghalya Al Sanea, Gunn Chaiyapatranun, Jack Fogel, Alina Kramkova, Judy Li, Michael Powell, and Hamza Qureshi" }
 var contextprojectdescriptionhumanfactors = {goal: "This course explored how human factors influence the design, construction and occupancy of the environments we create, and the relationships between space and our bodies and senses. It examines how the spaces we occupy affect our perception of ourselves and others, as well as how other fields address and contribute to these relationships. This also explores how these relationships have influenced the formation of architectural theory.", description2: " The observation journal presents concepts in increasing scales—from the body scale to the urban setting. Chapters include content about Body + Senses, Perception + Cognition, Behavior + Environment, and Social+ Environment.", partner: "In collaboration with Emily DeGrandpre, Annie Zhang, and Christine Zhu" }
+var contextprojectdescriptionenvironmentformfeedback = {goal: "An environmentally conscious design process that dares to engage the occupant in a sensorial way. Utilizing the power of wind not only as a tool to harvest energy and passively cool the housing complexes, but also as a means to alter the occupier’s perspective of wind through the sculpting of the site along a series of wrapping pathways.", partner: "In collaboration with Michael Powell."}
+var contextprojectdescriptionplanetparasite = {goal: "GOAL: to design and implement a program of your choosing using Python.", description1: "Planet Parasite was developed as a final term project for 15-112 Fundamentals of Programming and Computer Science. This project was meant to be fun as well as educational and representational of the knowledge gained from the course.", description2: "Your goal as a parasite is to capture as many uninhabited planets as you can without dying. Developing planets grow with time and randomly erupt into the form of an inhabited planet. For every time you are caught within the safety zone of these inhabited planets (dotted line) you get attacked and lose a life. Use the arrow keys to navigate around the parasite around in space, and collect as many uninhabited planets and powerups as you can. Different powerups give the parasite different powers. The Parasite also has limited attack mode, which can destroy developing planets before they become inhabited."}
 
 
 var resultprojectdescriptiontwist = Handlebars.templates.projectdescription(contextprojectdescriptiontwist);
@@ -280,6 +304,8 @@ var resultprojectdescriptioncenterforurbanagriculture = Handlebars.templates.pro
 var resultprojectdescriptionurbanincubatorstimulator = Handlebars.templates.projectdescription(contextprojectdescriptionurbanincubatorstimulator);
 var resultprojectdescriptioncasestudies = Handlebars.templates.projectdescription(contextprojectdescriptioncasestudies);
 var resultprojectdescriptionhumanfactors = Handlebars.templates.projectdescription(contextprojectdescriptionhumanfactors);
+var resultprojectdescriptionenvironmentformfeedback = Handlebars.templates.projectdescription(contextprojectdescriptionenvironmentformfeedback);
+var resultprojectdescriptionplanetparasite = Handlebars.templates.projectdescription(contextprojectdescriptionplanetparasite);
 
 
 
@@ -321,6 +347,12 @@ $(function() {
 });
 $(function() {
   $("#projectdescriptionhumanfactors").html(resultprojectdescriptionhumanfactors);
+});
+$(function() {
+  $("#projectdescriptionenvironmentformfeedback").html(resultprojectdescriptionenvironmentformfeedback);
+});
+$(function() {
+  $("#projectdescriptionplanetparasite").html(resultprojectdescriptionplanetparasite);
 });
 
 // -------------
