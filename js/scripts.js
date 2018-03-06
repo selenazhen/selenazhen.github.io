@@ -3,25 +3,24 @@
 
 var contexttwist = {source: "img/architecture/twist/twist_thumbnail.jpg", title: "twist", filesource: "twist.html"}
 var contextcitra = {source: "img/architecture/citra/citra_thumbnail.jpg", title: "citra", filesource: "citra.html"}
-var contextsendthatgift = {source: "img/uidesign/sendthatgift/sendthatgift_thumbnail.jpg", title: "send that gift", filesource: "sendthatgift.html"} 
-var contextpriceyak = {source: "img/uidesign/priceyak/priceyak_thumbnail.jpg", title: "priceyak", filesource: "priceyak.html"} 
-var contextzinchomepage = {source: "img/uidesign/zinchomepage/zinchomepage_thumbnail.jpg", title: "zinc.io", filesource: "zinchomepage.html"} 
-var contextlionfish = {source: "img/uidesign/lionfish/lionfish_thumbnail.jpg", title: "lionfish", filesource: "lionfish.html"} 
-var contextsubtotal = {source: "img/uidesign/subtotal/subtotal_thumbnail.jpg", title: "subtotal", filesource: "subtotal.html"}
-var contexthedgy = {source: "img/uidesign/hedgy/hedgy_thumbnail.jpg", title: "hedgy", filesource: "hedgy.html"} 
-var contexttailord = {source: "img/uidesign/tailord/tailord_thumbnail.jpg", title: "tailor'd", filesource: "tailord.html"} 
+var contextsendthatgift = {source: "img/design/sendthatgift/sendthatgift_thumbnail.jpg", title: "send that gift", filesource: "sendthatgift.html"} 
+var contextpriceyak = {source: "img/design/priceyak/priceyak_thumbnail.jpg", title: "priceyak", filesource: "priceyak.html"} 
+var contextzinchomepage = {source: "img/design/zinchomepage/zinchomepage_thumbnail.jpg", title: "zinc.io", filesource: "zinchomepage.html"} 
+var contextlionfish = {source: "img/design/lionfish/lionfish_thumbnail.jpg", title: "lionfish", filesource: "lionfish.html"} 
+var contextsubtotal = {source: "img/design/subtotal/subtotal_thumbnail.jpg", title: "subtotal", filesource: "subtotal.html"}
+var contexthedgy = {source: "img/design/hedgy/hedgy_thumbnail.jpg", title: "hedgy", filesource: "hedgy.html"} 
+var contexttailord = {source: "img/design/tailord/tailord_thumbnail.jpg", title: "tailor'd", filesource: "tailord.html"} 
 var contextcenterforurbanagriculture = {source: "img/architecture/centerforurbanagriculture/centerforurbanagriculture_thumbnail.jpg", title: "center for urban agriculture", filesource: "centerforurbanagriculture.html"} 
 var contextsacolakewellnesscenter = {source: "img/architecture/sacolakewellnesscenter/sacolakewellnesscenter_thumbnail.jpg", title: "saco lake wellness center", filesource: "sacolakewellnesscenter.html"} 
 var contexturbanincubatorstimulator = {source: "img/architecture/urbanincubatorstimulator/urbanincubatorstimulator_thumbnail.jpg", title: "urban incubator + stimulator", filesource: "urbanincubatorstimulator.html"} 
-var contextphoto = {source: "img/fun/photo/photo_thumbnail.jpg", title: "photo", filesource: "photo.html"} 
+var contextphoto = {source: "img/fun/photo/photo_thumbnail.jpg", title: "photography", filesource: "photo.html"} 
 var contextart = {source: "img/fun/art/art_thumbnail.jpg", title: "art", filesource: "art.html"} 
 var contextportraits = {source: "img/fun/photo/portraits/portraits_thumbnail.jpg", title: "portraits", filesource: "portraits.html"} 
 var contextworld = {source: "img/fun/photo/world/world_thumbnail.jpg", title: "world", filesource: "world.html"} 
 var contextmaterialsandassembly = {source: "img/architecture/materialsandassembly/materialsandassembly_thumbnail.jpg", title: "materials and assembly", filesource: "materialsandassembly.html"} 
 var contextenvironmentformfeedback = {source: "img/architecture/environmentformfeedback/environmentformfeedback_thumbnail.jpg", title: "environment form & feedback", filesource: "environmentformfeedback.html"} 
-var contextplanetparasite = {source: "img/uidesign/planetparasite/planetparasite_thumbnail.jpg", title: "planet parasite", filesource: "planetparasite.html"} 
-
-
+var contextplanetparasite = {source: "img/design/planetparasite/planetparasite_thumbnail.jpg", title: "planet parasite", filesource: "planetparasite.html"} 
+var contextlunargala2018 = {source: "img/fun/lunargala2018/lunargala2018_thumbnail.jpg", title: "lunar gala 2018", filesource: "lunargala2018.html"} 
 
 var resulttwist = Handlebars.templates.thumbnail(contexttwist);
 var resultcitra = Handlebars.templates.thumbnail(contextcitra);
@@ -42,6 +41,7 @@ var resultworld = Handlebars.templates.thumbnail(contextworld);
 var resultmaterialsandassembly = Handlebars.templates.thumbnail(contextmaterialsandassembly);
 var resultenvironmentformfeedback = Handlebars.templates.thumbnail(contextenvironmentformfeedback);
 var resultplanetparasite = Handlebars.templates.thumbnail(contextplanetparasite);
+var resultlunargala2018 = Handlebars.templates.thumbnail(contextlunargala2018);
 
 $(function() {
   $("#thumbnail_twist").html(resulttwist);
@@ -100,18 +100,21 @@ $(function() {
 $(function() {
   $("#thumbnail_planetparasite").html(resultplanetparasite);
 });
+$(function() {
+  $("#thumbnail_lunargala2018").html(resultlunargala2018);
+});
 
 // ------------- navigation links
 
-var contextnavigationall = {navlinkoptionall: "navlink active", navlinkoptionarchitecture: "navlink", navlinkoptionuidesign: "navlink", navlinkoptionfun: "navlink", navlinkoptionabout: "navlink"} 
-var contextnavigationarchitecture = {navlinkoptionall: "navlink", navlinkoptionarchitecture: "navlink active", navlinkoptionuidesign: "navlink", navlinkoptionfun: "navlink", navlinkoptionabout: "navlink"} 
-var contextnavigationuidesign = {navlinkoptionall: "navlink", navlinkoptionarchitecture: "navlink", navlinkoptionuidesign: "navlink active", navlinkoptionfun: "navlink", navlinkoptionabout: "navlink"} 
-var contextnavigationfun = {navlinkoptionall: "navlink", navlinkoptionarchitecture: "navlink", navlinkoptionuidesign: "navlink", navlinkoptionfun: "navlink active", navlinkoptionabout: "navlink"} 
-var contextnavigationabout = {navlinkoptionall: "navlink", navlinkoptionarchitecture: "navlink", navlinkoptionuidesign: "navlink", navlinkoptionfun: "navlink", navlinkoptionabout: "navlink active"} 
+var contextnavigationall = {navlinkoptionall: "navlink active", navlinkoptionarchitecture: "navlink", navlinkoptiondesign: "navlink", navlinkoptionfun: "navlink", navlinkoptionabout: "navlink"} 
+var contextnavigationarchitecture = {navlinkoptionall: "navlink", navlinkoptionarchitecture: "navlink active", navlinkoptiondesign: "navlink", navlinkoptionfun: "navlink", navlinkoptionabout: "navlink"} 
+var contextnavigationdesign = {navlinkoptionall: "navlink", navlinkoptionarchitecture: "navlink", navlinkoptiondesign: "navlink active", navlinkoptionfun: "navlink", navlinkoptionabout: "navlink"} 
+var contextnavigationfun = {navlinkoptionall: "navlink", navlinkoptionarchitecture: "navlink", navlinkoptiondesign: "navlink", navlinkoptionfun: "navlink active", navlinkoptionabout: "navlink"} 
+var contextnavigationabout = {navlinkoptionall: "navlink", navlinkoptionarchitecture: "navlink", navlinkoptiondesign: "navlink", navlinkoptionfun: "navlink", navlinkoptionabout: "navlink active"} 
 
 var resultnavigationall = Handlebars.templates.navigation(contextnavigationall);
 var resultnavigationarchitecture = Handlebars.templates.navigation(contextnavigationarchitecture);
-var resultnavigationuidesign = Handlebars.templates.navigation(contextnavigationuidesign);
+var resultnavigationdesign = Handlebars.templates.navigation(contextnavigationdesign);
 var resultnavigationfun = Handlebars.templates.navigation(contextnavigationfun);
 var resultnavigationabout = Handlebars.templates.navigation(contextnavigationabout);
 
@@ -122,7 +125,7 @@ $(function() {
   $("#navigationarchitecture").html(resultnavigationarchitecture);
 });
 $(function() {
-  $("#navigationuidesign").html(resultnavigationuidesign);
+  $("#navigationdesign").html(resultnavigationdesign);
 });
 $(function() {
   $("#navigationfun").html(resultnavigationfun);
@@ -135,14 +138,14 @@ $(function() {
 
 var contextpagenameall = {pagename: "all projects"} 
 var contextpagenamearchitecture = {pagename: "architecture"} 
-var contextpagenameuidesign = {pagename: "ui design"} 
+var contextpagenamedesign = {pagename: "design"} 
 var contextpagenamefun = {pagename: "fun"} 
 var contextpagenameabout = {pagename: "selena zhen"} 
-var contextpagenamephoto = {pagename: "photo"} 
+var contextpagenamephoto = {pagename: "photography"} 
 
 var resultpagenameall = Handlebars.templates.pagename(contextpagenameall);
 var resultpagenamearchitecture = Handlebars.templates.pagename(contextpagenamearchitecture);
-var resultpagenameuidesign = Handlebars.templates.pagename(contextpagenameuidesign);
+var resultpagenamedesign = Handlebars.templates.pagename(contextpagenamedesign);
 var resultpagenamefun = Handlebars.templates.pagename(contextpagenamefun);
 var resultpagenameabout = Handlebars.templates.pagename(contextpagenameabout);
 var resultpagenamephoto = Handlebars.templates.pagename(contextpagenamephoto);
@@ -154,7 +157,7 @@ $(function() {
   $("#pagenamearchitecture").html(resultpagenamearchitecture);
 });
 $(function() {
-  $("#pagenameuidesign").html(resultpagenameuidesign);
+  $("#pagenamedesign").html(resultpagenamedesign);
 });
 $(function() {
   $("#pagenamefun").html(resultpagenamefun);
@@ -189,6 +192,8 @@ var contextprojectpagenamecasestudies = {pagename: "case studies: waldorf school
 var contextprojectpagenamehumanfactors = {pagename: "human factors: tazza d'oro", location: "Carnegie Mellon University", schoolyear: "Second Year", semester: "Fall 2016"} 
 var contextprojectpagenameenvironmentformfeedback = {pagename: "environment form & feedback", location: "Carnegie Mellon University", schoolyear: "Third Year", semester: "Fall 2017"} 
 var contextprojectpagenameplanetparasite = {pagename: "planet parasite", location: "Carnegie Mellon University | 15-112 Fundamentals of Programming and Computer Science", schoolyear: "Third Year", semester: "Fall 2017"} 
+var contextprojectpagenamelunargala2018 = {pagename: "lunar gala 2018", location: "Carnegie Mellon University", schoolyear: "Third Year", semester: "Fall 2017 - Spring 2018"} 
+
 
 var resultprojectpagenametwist = Handlebars.templates.projectpagename(contextprojectpagenametwist);
 var resultprojectpagenamecitra = Handlebars.templates.projectpagename(contextprojectpagenamecitra);
@@ -210,6 +215,8 @@ var resultprojectpagenamecasestudies = Handlebars.templates.projectpagename(cont
 var resultprojectpagenamehumanfactors = Handlebars.templates.projectpagename(contextprojectpagenamehumanfactors);
 var resultprojectpagenameenvironmentformfeedback = Handlebars.templates.projectpagename(contextprojectpagenameenvironmentformfeedback);
 var resultprojectpagenameplanetparasite = Handlebars.templates.projectpagename(contextprojectpagenameplanetparasite);
+var resultprojectpagenamelunargala2018 = Handlebars.templates.projectpagename(contextprojectpagenamelunargala2018);
+
 
 $(function() {
   $("#projectpagenametwist").html(resultprojectpagenametwist);
@@ -271,6 +278,9 @@ $(function() {
 $(function() {
   $("#projectpagenameplanetparasite").html(resultprojectpagenameplanetparasite);
 });
+$(function() {
+  $("#projectpagenamelunargala2018").html(resultprojectpagenamelunargala2018);
+});
 
 // -------------  project page descriptions
 
@@ -289,6 +299,7 @@ var contextprojectdescriptioncasestudies = {goal: "This case study project inves
 var contextprojectdescriptionhumanfactors = {goal: "This course explored how human factors influence the design, construction and occupancy of the environments we create, and the relationships between space and our bodies and senses. It examines how the spaces we occupy affect our perception of ourselves and others, as well as how other fields address and contribute to these relationships. This also explores how these relationships have influenced the formation of architectural theory.", description2: " The observation journal presents concepts in increasing scales—from the body scale to the urban setting. Chapters include content about Body + Senses, Perception + Cognition, Behavior + Environment, and Social+ Environment.", partner: "In collaboration with Emily DeGrandpre, Annie Zhang, and Christine Zhu" }
 var contextprojectdescriptionenvironmentformfeedback = {goal: "An environmentally conscious design process that dares to engage the occupant in a sensorial way. Utilizing the power of wind not only as a tool to harvest energy and passively cool the housing complexes, but also as a means to alter the occupier’s perspective of wind through the sculpting of the site along a series of wrapping pathways.", partner: "In collaboration with Michael Powell."}
 var contextprojectdescriptionplanetparasite = {goal: "GOAL: to design and implement a program of your choosing using Python.", description1: "Planet Parasite was developed as a final term project for 15-112 Fundamentals of Programming and Computer Science. This project was meant to be fun as well as educational and representational of the knowledge gained from the course.", description2: "Your goal as a parasite is to capture as many uninhabited planets as you can without dying. Developing planets grow with time and randomly erupt into the form of an inhabited planet. For every time you are caught within the safety zone of these inhabited planets (dotted line) you get attacked and lose a life. Use the arrow keys to navigate around the parasite around in space, and collect as many uninhabited planets and powerups as you can. Different powerups give the parasite different powers. The Parasite also has limited attack mode, which can destroy developing planets before they become inhabited."}
+var contextprojectdescriptionlunargala2018 = {goal: "GOAL: to design and create a 10-piece fashion line for the Lunar Gala 2018 Fashion Show", description1: "SURFACE explores the issue of the distortion and trivialization of the human body into objects of desire. The veneer of mesh, overlayed with cut contours, is a constructed external appearance that illustrates areas of the socially ideal body, exposing those who wear it to appreciation and admiration, but also leaving them vulnerable to objectification. As the line progresses, the body becomes more clearly exposed than upon first impression. It is meant to represent an exaggerated set of physical attributes that emphasize the scrutiny of our bodies – conscious and subconscious, external and internal.", description2: "About Lunar Gala: Originally created in 1997 to ring in the Chinese New Year, Lunar Gala has transformed into a highly anticipated event that hundreds hope to be part of and thousands hope to come see. While staying true to its original intent, it has developed into a much larger produc- tion and has become a more impactful organization to the CMU and Pittsburgh community. Every year, the theme of the show is centered around the Zodiac animal of the lunar calendar. Now, Lunar Gala is arguably one of the largest fashion events in Pittsburgh, having sold out over 1200 seats each year with 140+ students involved in producing, designing, modeling, and dancing in the show. Students across all majors and cultures create original and creative lines, infusing technology and complex materials with wearable fashion."}
 
 
 var resultprojectdescriptiontwist = Handlebars.templates.projectdescription(contextprojectdescriptiontwist);
@@ -306,6 +317,7 @@ var resultprojectdescriptioncasestudies = Handlebars.templates.projectdescriptio
 var resultprojectdescriptionhumanfactors = Handlebars.templates.projectdescription(contextprojectdescriptionhumanfactors);
 var resultprojectdescriptionenvironmentformfeedback = Handlebars.templates.projectdescription(contextprojectdescriptionenvironmentformfeedback);
 var resultprojectdescriptionplanetparasite = Handlebars.templates.projectdescription(contextprojectdescriptionplanetparasite);
+var resultprojectdescriptionlunargala2018 = Handlebars.templates.projectdescription(contextprojectdescriptionlunargala2018);
 
 
 
@@ -354,6 +366,9 @@ $(function() {
 $(function() {
   $("#projectdescriptionplanetparasite").html(resultprojectdescriptionplanetparasite);
 });
+$(function() {
+  $("#projectdescriptionlunargala2018").html(resultprojectdescriptionlunargala2018);
+});
 
 // -------------
 
@@ -375,17 +390,17 @@ $(function() {
 
 
 var contextreturnsectionarchitecture = {}
-var contextreturnsectionuidesign = {}
+var contextreturnsectiondesign = {}
 
 
 var resultreturnsectionarchitecture = Handlebars.templates.returnsectionarchitecture(contextreturnsectionarchitecture);
-var resultreturnsectionuidesign = Handlebars.templates.returnsectionuidesign(contextreturnsectionuidesign);
+var resultreturnsectiondesign = Handlebars.templates.returnsectiondesign(contextreturnsectiondesign);
 
 
 $(function() {
   $("#returnsectionarchitecture").html(resultreturnsectionarchitecture);
 });
 $(function() {
-  $("#returnsectionuidesign").html(resultreturnsectionuidesign);
+  $("#returnsectiondesign").html(resultreturnsectiondesign);
 });
 
