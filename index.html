@@ -1,14 +1,15 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta content="Selena Zhen Portfolio" name="description">
   <meta property="og:image" content="img/logo_square.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <title>Selena Zhen</title>
+  <link rel="shortcut icon" type="image/png" href="img/logo_square.png"/>
+  <title>Selena Zhen Porfolio</title>
   <!-- Search Engine -->
   <meta name="image" content="img/logo_square.png">
   <!-- Schema.org for Google -->
@@ -17,68 +18,114 @@
   <meta itemprop="description" content="Selena Zhen Portfolio">
   <meta itemprop="image" content="img/logo_square.png">
 
-  <!-- BOOTSTRAP -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <!-- /BOOTSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <link rel="stylesheet" type="text/css" href="main.css">
   <!-- Google Fonts: PT Sans and Roboto-->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-  <!--favicon start-->
-  <link rel="icon" type="image/png" sizes="16x16 32x32" href="img/logo_square.png">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-  <!--favicon end-->
-
-<!--   <style>
-    /* preload */
-    :body:before {
-      content: url(img/logobg.jpg);
-      /* partial fallback */
-      background-image: url(img/logobg.jpg);
-      visibility: hidden;
-      position: absolute;
-      left: -999em;
-    }
-  </style> -->
-  <!-- <style type="text/css">#landingpage {background-image: url("img/logobg.jpg");}</style> -->
-<!--   handlebars begin -->
-  <script src="http://code.jquery.com/jquery.min.js"></script>
-  <script src="js/handlebars.runtime.js"></script>
-  <script src="js/templates.js"></script>
-  <script src="js/scripts.js"></script>  
-
-<!--   handlebars end -->
-
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700" rel="stylesheet">
 </head>
 
-<body style="background-color: black;">
+
+
+<!-- <body style="overflow: hidden; background-color: black;"> -->
+<body style="background-color: white;">
+
+
+<section >
+  <div class="largerWrapper">
+    <nav class="navbar navbar-dark navbar-expand-md justify-content-center">
+        <a href="index.html" id="logoname" class="navbar-brand d-flex w-50 mr-auto">SZ</a>
+        <button class="navbar-toggler homeLineColor" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <p  id="navbarbutton">menu</p>
+        </button>
+        <div class="navbar-collapse collapse linkUnderlineJumpDark" id="collapsingNavbar3">
+            <ul class="nav navbar-nav ml-auto justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="architecture.html">architecture</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="design.html">design</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="fun.html">fun</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">about</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div> <!--start of content-->
+
+      <div class="col-xs-12" id="landing" style="background-color: black;">
+        <h1 class="fadeintext">
+          <span class="fadeintextWorkOption "><a href="architecture.html" class="fadeintextWorkOptionLink linkArchitectureColor">ARCHITECTURE</a></span> +
+          <span class="fadeintextWorkOption"><a href="design.html" class="fadeintextWorkOptionLink linkDesignColor">DESIGN</a></span>
+        </h1>
+      </div>
+
+    </div><!--end of content-->
+
+  
+  </div>
+</section>
 
 
 
-<div style="width: 100vw, height: 100vh;">
-    <div style="position: fixed;top: 50%;left: 50%;transform: translate(-50%, -50%); color: white">
-      <h1 style="text-align: center; font-size: 3.5em;">apologies, but my website is currently getting a makeover... </h1>
-      <br>
-      <h1 style="text-align: right; font-size: 2em;">love,<br>selena</h1>
-      <!-- <img style="width: 200px; height: auto; float: right;"src="img/sig.png"> -->
-    </div>
-</div>​
 
 
 
+<!-- <footer class="footer">
+  <div>
+    <p>&copy; <script>document.write(new Date().getFullYear())</script></p>
+  </div>
+</footer> -->
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script>
+var $mouseX = 0, $mouseY = 0;
+var $xp = 0, $yp =0;
+
+$(document).mousemove(function(e){
+    $mouseX = e.pageX;
+    $mouseY = e.pageY;    
+});
+
+var $loop = setInterval(function(){
+// change 12 to alter damping higher is slower
+$xp += (($mouseX - $xp)/8);
+$yp += (($mouseY - $yp)/8);
+$("#movingDiv").css({left:$xp +'px', top:$yp +'px'});  
+}, 30);
+</script>
+
+
+<!-- <script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("stickynav");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script> -->
 
 </body>
 </html>
