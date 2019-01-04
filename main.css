@@ -499,7 +499,7 @@ h1.fadeintext{
       line-height: 20vh !important;
     }
     #buttonTop {
-      right: 20% !important;
+      left: 20% !important;
     }
 }
 @media only screen and (min-width: 769px) {
@@ -508,7 +508,7 @@ h1.fadeintext{
       font-size: 6.5em;
     }
     #buttonTop {
-      right: 30px;
+      left: 30px;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -534,7 +534,7 @@ h1.fadeintext{
       column-count: 1 !important;
     }
     #buttonTop {
-      right: 15px;
+      left: 15px;
     }
 }
 .largerWrapper {
@@ -661,11 +661,12 @@ footer {
 .pageProjectDivContent {
   width: 100%;
   height: 100%;
-  margin: 0 0 50px 0 !important;
+  margin: 0 0 80px 0 !important;
 }
 .pageProjectDivHeader {
   width: 100%;
   height: 100%;
+  margin-bottom: 15px;
 }
 .newspaperFillText3 {
   -webkit-column-count: 3; /* Chrome, Safari, Opera */
@@ -696,7 +697,6 @@ footer {
 .max450width {
   max-width: 450px;
 }
-
 .pageProjectTitle {
   width: 100%;
   height: auto;
@@ -752,7 +752,32 @@ ol#sacolakeprocesslist {
 #buttonTop {
   display: none;
   position: fixed;
-  width: 60px;
+  /*width: 50px;*/
+  bottom: 15px;
+  left: 15px;
+  z-index: 400;
+  font-size: 1.2em;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  margin: 0;
+  /*border-radius: 3px;*/
+  text-decoration:none;
+  text-transform: uppercase;
+  /*opacity: .3;*/
+}
+
+#buttonTop:hover {
+  opacity: .5;
+}
+
+#buttonToppp {
+  display: none;
+  position: fixed;
+  width: 50px;
   bottom: 20px;
   /*right: 15px;*/
   z-index: 400;
@@ -770,9 +795,7 @@ ol#sacolakeprocesslist {
   opacity: .3;
 }
 
-#buttonTop:hover {
-  opacity: 1;
-}
+
 
 /*#topbutton {*/
   /*position: fixed;*/
@@ -794,6 +817,23 @@ ol#sacolakeprocesslist {
   color: black;
 }*/
 /*-------------*/
+
+.quote {
+  /*max-width: 400px;*/
+  /*padding: 50px 0 0 0;*/
+  /*margin:  0 auto;*/
+  position: relative;
+  font-family: serif; 
+  font-style: italic;
+  font-size: 1.75em;
+}
+.leftAlign {
+  text-align: left;
+}
+.rightAlign {
+  text-align: right;
+}
+
 
 .slideshow {
   position: relative;
