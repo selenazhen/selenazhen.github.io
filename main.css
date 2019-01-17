@@ -208,6 +208,10 @@ DO NOT TOUCH*/
   -webkit-transform: translateY(0);
   opacity: 1;
 }
+
+.aboutPageLink {
+  font-size: .9em !important;
+}
 /*---------*/
 
 
