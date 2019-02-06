@@ -106,6 +106,10 @@ DO NOT TOUCH*/
       height: 100%;
     }
 
+.linkUnderlineHighlight:active {
+  color: black  ;
+}
+
 .linkHighlight {
   position: relative;
   text-decoration: none;
@@ -657,8 +661,8 @@ footer {
 }
 .imageCaptionRight {
   text-align: right;
-  margin-top: 5px;
-  margin-bottom: 15px;
+  margin-top: 4px;
+  margin-bottom: 20px;
   font-size: 1.2em;
   font-style: italic;
 }
@@ -867,6 +871,20 @@ ol#sacolakeprocesslist {
   margin-top: 5px;
   text-align: center;
   font-size: .8em;  
+}
+
+#skyeUniversityHeader {
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 400;
+  letter-spacing: 9px;
+  color: black;
+}
+#skyeUniversitySubHeader {
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 400;
+  letter-spacing: 9px;
+  color: #b7b7b7;
+  font-size: 3em;
 }
 
 /*----responsive gallery w3schools----*/
