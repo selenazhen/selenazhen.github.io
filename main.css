@@ -842,6 +842,9 @@ ol#sacolakeprocesslist {
   text-align: right;
 }
 
+.italic {
+  font-style: italic;
+}
 
 .slideshow {
   position: relative;
