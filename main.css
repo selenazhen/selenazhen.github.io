@@ -714,7 +714,7 @@ footer {
 }
 .pageProjectTitle h1 {
   color: black;
-  font-size: 4em;
+  font-size: 3em;
   text-transform: uppercase;
 }
 .pageTitle {
@@ -840,6 +840,9 @@ ol#sacolakeprocesslist {
 }
 .rightAlign {
   text-align: right;
+}
+.centerAlign {
+  text-align: center;
 }
 
 .italic {
