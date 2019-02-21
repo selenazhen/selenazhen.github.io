@@ -644,7 +644,7 @@ footer {
   height: auto;
   margin: 0;
   padding: 0;
-  border: 1px #eee solid;
+  border: 1px #ddd solid;
 }
 .imageCaptionLeft {
   text-align: left;
@@ -893,6 +893,35 @@ ol#sacolakeprocesslist {
   color: #b7b7b7;
   font-size: 3em;
 }
+
+.bluecrewBoxContainer {
+  padding: 0 0 15px 0;
+}
+
+.bluecrewBox {
+  border: 2px black solid;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.bluecrewBox a {
+  width: 100%;
+  height: 200%;
+}
+
+.bluecrewBox a h2 {
+  margin: 30px;
+  line-height: 20px;
+}
+
+
+
+
+/*.blueCrewBox:hover {
+  background-color: red;
+}
+*/
 
 /*----responsive gallery w3schools----*/
 
