@@ -301,10 +301,6 @@ h1.fadeintext{
 
 
 
-
-
-
-
 /*------different color variations-------*/
 .architectureColor {
   color: #FFBC42 !important;
@@ -327,22 +323,24 @@ h1.fadeintext{
 
 .architectureColorBackgroundColor {
   background-color: #FFBC42;
-  /*background-color: black;*/
 }
 .designColorBackgroundColor {
   background-color: #DB6939;
 }
 .funColorBackgroundColor {
   background-color: #5C98C9;
-  /*background-color: black;*/
 }
 .aboutColorBackgroundColor {
   background-color: white;
 }
+.advocacyColorBackgroundColor {
+  background-color: black;
+}
+
 .black3pxborder {
   /*border: black 3px solid;*/
 }
-    
+ 
 /*line color*/
 .linkUnderlineJump a.architectureColor:before {
   background-color: #FFBC42; 
@@ -915,13 +913,15 @@ ol#sacolakeprocesslist {
   line-height: 20px;
 }
 
-
-
-
-/*.blueCrewBox:hover {
-  background-color: red;
+#advocacyContent {
+  width: 60%;
+  margin: 0 auto;
+  position:relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
 }
-*/
+
 
 /*----responsive gallery w3schools----*/
 
