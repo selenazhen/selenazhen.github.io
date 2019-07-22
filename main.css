@@ -913,13 +913,28 @@ ol#sacolakeprocesslist {
   line-height: 20px;
 }
 
-#advocacyContent {
-  width: 60%;
+#advocacyBannerContent {
+  width: 100%;
+  height: auto;
+  /*margin: 0 auto;*/
+  position:relative;
+  /*margin-top: 50px;*/
+  /*margin-bottom: 50px;*/
+  background-color: #FFDE00;
+  text-align: center;
+  padding: 30px ;
+}
+
+.podcastimg {
+  height: 300px;
+  width: auto;
+}
+.advocacyEpisodeContent {
+  width: 70%;
   margin: 0 auto;
   position:relative;
   margin-top: 50px;
   margin-bottom: 50px;
-  text-align: center;
 }
 
 
