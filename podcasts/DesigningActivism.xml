@@ -7,12 +7,12 @@
         <generator>Feeder 3 3.7(3248); Mac OS X Version 10.14.2 (Build 18C54) http://reinventedsoftware.com/feeder/</generator>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <language>en</language>
-        <pubDate>Sat, 07 Sep 2019 01:26:32 -0400</pubDate>
-        <lastBuildDate>Sat, 07 Sep 2019 01:26:32 -0400</lastBuildDate>
+        <pubDate>Sat, 07 Sep 2019 13:24:21 -0400</pubDate>
+        <lastBuildDate>Sat, 07 Sep 2019 13:24:21 -0400</lastBuildDate>
         <atom:link href="http://selenazhen.com/podcasts/DesigningActivism.xml" rel="self" type="application/rss+xml"/>
         <itunes:author>Selena Zhen</itunes:author>
         <itunes:keywords>Activism,Designing Activism,Designing Advocacy,Advocacy,AIAS,American Institute of Architecture Students,AIA,American Institute of Architects,Architecture,Design,Podcast,Design Activism,FAIA</itunes:keywords>
-        <itunes:image href="http://selenazhen.com/podcastArtwork.jpg"/>
+        <itunes:image href="http://selenazhen.com/podcasts/podcastArtwork.jpg"/>
         <itunes:block>no</itunes:block>
         <itunes:category text="Business">
             <itunes:category text="Non-Profit"/>
