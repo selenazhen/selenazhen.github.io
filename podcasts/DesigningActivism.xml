@@ -7,9 +7,9 @@
         <generator>Feeder 3 3.7(3248); Mac OS X Version 10.14.2 (Build 18C54) http://reinventedsoftware.com/feeder/</generator>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <language>en</language>
-        <pubDate>Sat, 07 Sep 2019 01:17:29 -0400</pubDate>
-        <lastBuildDate>Sat, 07 Sep 2019 01:17:30 -0400</lastBuildDate>
-        <atom:link href="http://selenazhen.com/DesigningActivism.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sat, 07 Sep 2019 01:26:32 -0400</pubDate>
+        <lastBuildDate>Sat, 07 Sep 2019 01:26:32 -0400</lastBuildDate>
+        <atom:link href="http://selenazhen.com/podcasts/DesigningActivism.xml" rel="self" type="application/rss+xml"/>
         <itunes:author>Selena Zhen</itunes:author>
         <itunes:keywords>Activism,Designing Activism,Designing Advocacy,Advocacy,AIAS,American Institute of Architecture Students,AIA,American Institute of Architects,Architecture,Design,Podcast,Design Activism,FAIA</itunes:keywords>
         <itunes:image href="http://selenazhen.com/podcastArtwork.jpg"/>
@@ -43,11 +43,11 @@
 <p>Enjoy!
 <br />-S</p>]]></description>
             <pubDate>Mon, 22 Jul 2019 00:00:00 -0400</pubDate>
-            <enclosure url="http://selenazhen.com/ep1.m4a" length="61840271" type="audio/x-m4a"/>
+            <enclosure url="http://selenazhen.com/podcasts/ep1.m4a" length="61840271" type="audio/x-m4a"/>
             <guid isPermaLink="false">690271FA-4127-4BDA-841D-DC40AAE3706F</guid>
             <itunes:author>Selena Zhen</itunes:author>
             <itunes:keywords>Activism,Designing Activism,Designing Advocacy,Advocacy,AIAS,American Institute of Architecture Students,AIA,American Institute of Architects,Architecture,Design,Podcast,Design Activism,FAIA</itunes:keywords>
-            <itunes:image href="http://selenazhen.com/podcastArtwork.jpg"/>
+            <itunes:image href="http://selenazhen.com/podcasts/podcastArtwork.jpg"/>
             <itunes:duration>34:25</itunes:duration>
             <itunes:episodeType>full</itunes:episodeType>
             <itunes:title>1. Advocacy Platforms</itunes:title>
