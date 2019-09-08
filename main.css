@@ -941,6 +941,13 @@ ol#sacolakeprocesslist {
   margin-top: 20px;
   margin-bottom: 30px;
 }
+.podcastSpotifyLink {
+  width:200px;
+  height: auto;
+  position: relative;
+  margin: 20px 0 20px 0;
+
+}
 
 
 /*----responsive gallery w3schools----*/
