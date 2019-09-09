@@ -36,6 +36,12 @@ h3 {
   font-family: 'Karla','PT Sans', 'Roboto', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
 }
+h3 {
+  font-size: 1.75em;
+  font-weight: 700;
+  font-family: 'Karla','PT Sans', 'Roboto', Arial, Helvetica, sans-serif;
+
+}
 ul {
   list-style: none;
   margin: 0;
@@ -313,7 +319,7 @@ h1.fadeintext{
   /*color: black !important;*/
   color: #DB6939 !important;
 }
-.funColor {
+.playColor {
   color: #5C98C9 !important;
   /*color: black !important;*/
 }
@@ -327,7 +333,7 @@ h1.fadeintext{
 .designColorBackgroundColor {
   background-color: #DB6939;
 }
-.funColorBackgroundColor {
+.playColorBackgroundColor {
   background-color: #5C98C9;
 }
 .aboutColorBackgroundColor {
@@ -348,7 +354,7 @@ h1.fadeintext{
 .linkUnderlineJump a.designColor:before {
   background-color: #DB6939; 
 }
-.linkUnderlineJump a.funColor:before {
+.linkUnderlineJump a.playColor:before {
   background-color: #5C98C9; 
 }
 .linkUnderlineJump a.aboutColor:before {
@@ -369,7 +375,7 @@ h1.fadeintext{
   color: #DB6939;
   opacity: 1;
 }
-.fadeintextWorkOption a.linkFunColor:hover {
+.fadeintextWorkOption a.linkplayColor:hover {
   color: #5C98C9;
   opacity: 1;
 }
@@ -385,7 +391,7 @@ h1.fadeintext{
 .designLineColor {
   border-color: #DB6939 !important;
 }
-.funLineColor {
+.playLineColor {
   /*border-color: #D81159 !important;*/
   border-color: black !important;
 }
@@ -913,42 +919,42 @@ ol#sacolakeprocesslist {
   line-height: 20px;
 }
 
+
+
 #advocacyBannerContent {
   width: 100%;
   height: auto;
-  /*margin: 0 auto;*/
-  position:relative;
-  /*margin-top: 50px;*/
-  /*margin-bottom: 50px;*/
   background-color: #fff199;
   text-align: center;
-  padding: 30px ;
 }
-
-.podcastimg {
-  height: 300px;
+#podcastBanner {
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#podcastWrapper {
+  /*WRAPPER AROUND MAIN CONTENT*/
+  max-width: 800px;
   width: auto;
-}
-.advocacyEpisodeContent {
-  width: 70%;
+  height: auto%;
   margin: 0 auto;
-  position:relative;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding: 0 0 30px;
+  position: relative;
 }
-
-.podcastEmbedLink {
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-.podcastSpotifyLink {
+.podcastSpotifyLinkImg {
   width:200px;
   height: auto;
   position: relative;
-  margin: 20px 0 20px 0;
-
 }
 
+.podcastEpisodeItem {
+  margin-bottom: 50px;
+}
+
+#podcastIntro {
+  margin: 50px 0 50px 0;
+}
 
 /*----responsive gallery w3schools----*/
 
