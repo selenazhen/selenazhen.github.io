@@ -550,7 +550,7 @@ h1.fadeintext{
       /*limit viewport size*/
     }
     .black3pxborder {
-      border: black 3px solid;
+      /*border: black 3px solid;*/
     }
     .pageTitle h1 {
       line-height: 20vh !important;

@@ -4,16 +4,16 @@
         <title>Designing Activism</title>
         <link>http://selenazhen.com/advocacy</link>
         <description>A podcast created out of the passion to increase awareness of “empty activism”, its underlying causes and adverse effects, and how to participate in actionable and tangible advocacy. An AIAS Advocacy initative, created and hosted by Selena Zhen!</description>
-        <generator>Feeder 3 3.7(3248) Mac App Store Version; Mac OS X Version 10.14.2 (Build 18C54) http://reinventedsoftware.com/feeder/</generator>
+        <generator>Feeder 3 3.7.2(3302) Mac App Store Version; Mac OS X Version 10.14.2 (Build 18C54) http://reinventedsoftware.com/feeder/</generator>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <language>en</language>
-        <pubDate>Tue, 15 Oct 2019 15:27:09 -0400</pubDate>
-        <lastBuildDate>Tue, 15 Oct 2019 15:27:09 -0400</lastBuildDate>
+        <pubDate>Sun, 09 Feb 2020 23:11:03 -0500</pubDate>
+        <lastBuildDate>Sun, 09 Feb 2020 23:11:03 -0500</lastBuildDate>
         <atom:link href="http://selenazhen.com/podcasts/DesigningActivism.xml" rel="self" type="application/rss+xml"/>
         <itunes:author>Selena Zhen</itunes:author>
         <itunes:keywords>Activism,Designing Activism,Designing Advocacy,Advocacy,AIAS,American Institute of Architecture Students,AIA,American Institute of Architects,Architecture,Design,Podcast,Design Activism,FAIA</itunes:keywords>
         <itunes:image href="http://selenazhen.com/podcasts/podcastArtwork.jpg"/>
-        <itunes:explicit>yes</itunes:explicit>
+        <itunes:explicit>true</itunes:explicit>
         <itunes:owner>
             <itunes:name>Selena Zhen</itunes:name>
             <itunes:email>designingactivism@gmail.com</itunes:email>
@@ -39,21 +39,43 @@
         </itunes:category>
         <itunes:type>episodic</itunes:type>
         <item>
+            <title>5. Activism in Sports</title>
+            <link>http://selenazhen.com/advocacy</link>
+            <description>
+                <content:encoded><![CDATA[<p>Historically, athletes, brands and sports leagues take different positions on whether or not to accomodate and address political and social issues. What are the underlying forces at play that impact the effectiveness of taking a stand? And why are the consequences of advocacy in this field often negative or controversial? Special Guest: Zhitao Chen (IG @ztaotao)</p>
+
+<p>Enjoy!
+<br />-S & Z</p>]]></content:encoded>
+            </description>
+            <pubDate>Mon, 03 Feb 2020 20:00:00 -0500</pubDate>
+            <enclosure url="http://selenazhen.com/podcasts/ep5.mp3" length="53123163" type="audio/mpeg"/>
+            <guid isPermaLink="false">9BE89105-9956-48BF-B767-69B07EEB1521</guid>
+            <itunes:author>Selena Zhen &amp; Zhitao Chen</itunes:author>
+            <itunes:keywords>Activism,Designing Activism,Designing Advocacy,Advocacy,AIAS,American Institute of Architecture Students,Podcast,Design Activism,Design Advocacy,Design Activism,Sports Activism,Sports,Football,Basketball,NBA,NFL</itunes:keywords>
+            <itunes:image href="http://selenazhen.com/podcasts/podcastArtwork.jpg"/>
+            <itunes:duration>2030</itunes:duration>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:title>5. Activism in Sports</itunes:title>
+            <dc:creator>Selena Zhen</dc:creator>
+        </item>
+        <item>
             <title>4. How Can Designers Be Activists?</title>
             <link>http://selenazhen.com/advocacy</link>
-            <description><![CDATA[<p>How can designers be activists? On this episode, join Alina Kramkova, Chitika Vasudeva, and me in discussing the activism that is inherent to design and design-affiliated professions. </p>
+            <description>
+                <content:encoded><![CDATA[<p>How can designers be activists? On this episode, join Alina Kramkova, Chitika Vasudeva, and me in discussing the activism that is inherent to design and design-affiliated professions. </p>
 
 <p>How can you consciously channel your career and daily life as a designer to advocate for issues that matter? How can designers and architects use their unique perspective and expertise to help advance larger advocacy initiatives? Can you prevent yourself from falling into ‘empty activism’? Though we don’t have the answer to all of these questions, we do have some ideas about how the designers of tomorrow can be activists today.</p>
 
 <p>Enjoy!
-<br />-S</p>]]></description>
+<br />-S</p>]]></content:encoded>
+            </description>
             <pubDate>Tue, 15 Oct 2019 00:00:00 -0400</pubDate>
             <enclosure url="http://selenazhen.com/podcasts/ep4.mp3" length="64054530" type="audio/mpeg"/>
             <guid isPermaLink="false">E2ACB28B-5F16-4934-A4B2-C110013FD7E0</guid>
             <itunes:author>Selena Zhen, Chitika Vasudeva, Alina Kramkova</itunes:author>
             <itunes:keywords>Activism,Designing Activism,Designing Advocacy,Advocacy,AIAS,American Institute of Architecture Students,AIA,American Institute of Architects,Architecture,Design,Podcast,Design Activism,FAIA,NAAB ARF,NAAB,Design Advocacy,Design Activism</itunes:keywords>
             <itunes:image href="http://selenazhen.com/podcasts/podcastArtwork.jpg"/>
-            <itunes:duration>40:51</itunes:duration>
+            <itunes:duration>2451</itunes:duration>
             <itunes:episodeType>full</itunes:episodeType>
             <itunes:title>4. How Can Designers Be Activists?</itunes:title>
             <dc:creator>Selena Zhen</dc:creator>
@@ -61,17 +83,19 @@
         <item>
             <title>3. Becoming an AIAS Advocate</title>
             <link>http://selenazhen.com/advocacy</link>
-            <description><![CDATA[<p>Chitika (recurring guest) and I hit a topic a little closer to home — current advocacy efforts and how to become an effective advocate within the American Institute of Architecture Students (AIAS). What projects and efforts are currently being undertaken by the organization? Who is working on these and how do you get involved? Hear updates from Scott Cornelius (Oklahoma State University) and Amber Kustaborder (Kent State University) about their recent efforts regarding rewriting and redefining Studio Culture Policies (or Learning and Teaching Culture Policies). </p>
+            <description>
+                <content:encoded><![CDATA[<p>Chitika (recurring guest) and I hit a topic a little closer to home — current advocacy efforts and how to become an effective advocate within the American Institute of Architecture Students (AIAS). What projects and efforts are currently being undertaken by the organization? Who is working on these and how do you get involved? Hear updates from Scott Cornelius (Oklahoma State University) and Amber Kustaborder (Kent State University) about their recent efforts regarding rewriting and redefining Studio Culture Policies (or Learning and Teaching Culture Policies). </p>
 
 <p>Enjoy!
-<br />-S</p>]]></description>
+<br />-S</p>]]></content:encoded>
+            </description>
             <pubDate>Tue, 08 Oct 2019 13:08:53 -0400</pubDate>
             <enclosure url="http://selenazhen.com/podcasts/ep3.mp3" length="68063091" type="audio/mpeg"/>
             <guid isPermaLink="false">5115AD24-FF13-488B-BFFE-53EEA00BED77</guid>
             <itunes:author>Selena Zhen &amp; Chitika Vasudeva</itunes:author>
             <itunes:keywords>Activism,Designing Activism,Designing Advocacy,Advocacy,AIAS,American Institute of Architecture Students,AIA,American Institute of Architects,Architecture,Design,Podcast,Design Activism,FAIA,NAAB ARF,NAAB,Studio Culture Policy,Teaching and Learning Policy</itunes:keywords>
             <itunes:image href="http://selenazhen.com/podcasts/podcastArtwork.jpg"/>
-            <itunes:duration>44:25</itunes:duration>
+            <itunes:duration>2665</itunes:duration>
             <itunes:episodeType>full</itunes:episodeType>
             <itunes:title>3. Becoming an AIAS Advocate</itunes:title>
             <dc:creator>Selena Zhen</dc:creator>
@@ -79,19 +103,21 @@
         <item>
             <title>2. Is Social Media Bad Activism?</title>
             <link>http://selenazhen.com/advocacy</link>
-            <description><![CDATA[<p>Chitika Vasudeva (recurring 'character'/guest) and I speak about the presence of social media activism and the concept of spreading advocacy efforts via the Internet. </p>
+            <description>
+                <content:encoded><![CDATA[<p>Chitika Vasudeva (recurring 'character'/guest) and I speak about the presence of social media activism and the concept of spreading advocacy efforts via the Internet. </p>
 
 <p>When is social media considered a form of empty activism? How many people even took the time to research the issue they're posting about? Join us as we criticize and take some of the blame when it comes to ineffectively spreading the word through social media. Though sparking conversation about a topic can be beneficial, what comes before the trending topic and the actions taken after the topic has passed can be the most essential examples of effective advocacy. </p>
 
 <p>Enjoy!
-<br />-S</p>]]></description>
+<br />-S</p>]]></content:encoded>
+            </description>
             <pubDate>Sat, 07 Sep 2019 22:11:11 -0400</pubDate>
             <enclosure url="http://selenazhen.com/podcasts/ep2.mp3" length="58341036" type="audio/mpeg"/>
             <guid isPermaLink="false">0B3C4AF7-4FF6-45A2-B0E2-5DE75ECAE3F1</guid>
             <itunes:author>Selena Zhen &amp; Chitika Vasudeva</itunes:author>
             <itunes:keywords>Activism,Designing Activism,Designing Advocacy,Advocacy,AIAS,American Institute of Architecture Students,AIA,American Institute of Architects,Architecture,Design,Podcast,Design Activism,FAIA,Social Media,Hashtag,Amazon Fires,Twitter,Trending</itunes:keywords>
             <itunes:image href="http://selenazhen.com/podcasts/podcastArtwork.jpg"/>
-            <itunes:duration>37:43</itunes:duration>
+            <itunes:duration>2263</itunes:duration>
             <itunes:episodeType>full</itunes:episodeType>
             <itunes:title>2. Is Social Media Bad Activism?</itunes:title>
             <dc:creator>Selena Zhen</dc:creator>
@@ -99,19 +125,21 @@
         <item>
             <title>1. Advocacy Platforms</title>
             <link>http://selenazhen.com/advocacy</link>
-            <description><![CDATA[<p>Apologies for the audio, I know it is a sudden and unpleasant change. I will do better next time!</p>
+            <description>
+                <content:encoded><![CDATA[<p>Apologies for the audio, I know it is a sudden and unpleasant change. I will do better next time!</p>
 
 <p>Three special guests: Tim Hawk, FAIA, Chitika Vasudeva (CMU AIAS), and Ethan Moore (KSU AIAS) join me on a discussion about their various avenues to advocacy, as well as a reflection on Student Capitol Hill Day.</p>
 
 <p>Enjoy!
-<br />-S</p>]]></description>
+<br />-S</p>]]></content:encoded>
+            </description>
             <pubDate>Mon, 22 Jul 2019 00:00:00 -0400</pubDate>
             <enclosure url="http://selenazhen.com/podcasts/ep1.m4a" length="61840271" type="audio/x-m4a"/>
             <guid isPermaLink="false">690271FA-4127-4BDA-841D-DC40AAE3706F</guid>
             <itunes:author>Selena Zhen</itunes:author>
             <itunes:keywords>Activism,Designing Activism,Designing Advocacy,Advocacy,AIAS,American Institute of Architecture Students,AIA,American Institute of Architects,Architecture,Design,Podcast,Design Activism,FAIA</itunes:keywords>
             <itunes:image href="http://selenazhen.com/podcasts/podcastArtwork.jpg"/>
-            <itunes:duration>34:25</itunes:duration>
+            <itunes:duration>2065</itunes:duration>
             <itunes:episodeType>full</itunes:episodeType>
             <itunes:title>1. Advocacy Platforms</itunes:title>
             <dc:creator>Selena Zhen</dc:creator>
