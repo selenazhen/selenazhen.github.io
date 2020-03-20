@@ -7,8 +7,8 @@
         <generator>Feeder 3 3.7.2(3302) Mac App Store Version; Mac OS X Version 10.14.2 (Build 18C54) http://reinventedsoftware.com/feeder/</generator>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <language>en</language>
-        <pubDate>Sun, 09 Feb 2020 23:11:03 -0500</pubDate>
-        <lastBuildDate>Sun, 09 Feb 2020 23:11:03 -0500</lastBuildDate>
+        <pubDate>Fri, 20 Mar 2020 19:14:45 -0400</pubDate>
+        <lastBuildDate>Fri, 20 Mar 2020 19:14:46 -0400</lastBuildDate>
         <atom:link href="http://selenazhen.com/podcasts/DesigningActivism.xml" rel="self" type="application/rss+xml"/>
         <itunes:author>Selena Zhen</itunes:author>
         <itunes:keywords>Activism,Designing Activism,Designing Advocacy,Advocacy,AIAS,American Institute of Architecture Students,AIA,American Institute of Architects,Architecture,Design,Podcast,Design Activism,FAIA</itunes:keywords>
@@ -38,6 +38,52 @@
             <itunes:category text="Performing Arts"/>
         </itunes:category>
         <itunes:type>episodic</itunes:type>
+        <item>
+            <title>7. Advocacy through Thesis</title>
+            <link>http://selenazhen.com/advocacy</link>
+            <description>
+                <content:encoded><![CDATA[<p>This special episode is a compilation of three short interviews with Carnegie Mellon University 5th year B.Arch students in the Thesis program. We quickly discuss their projects and how Thesis has been an avenue to advocate for their passions and interests. Interviewing in three different places is hard! Please excuse the audio changes. </p>
+
+<p>I am aware that because this episode was recorded 2-3 weeks ago, it doesn't address the current COVID-19 situation in the world. I hope you all are safe, washing your hands, and doing okay! </p>
+
+<p>Enjoy!
+<br />-S</p>]]></content:encoded>
+            </description>
+            <pubDate>Fri, 20 Mar 2020 19:14:29 -0400</pubDate>
+            <enclosure url="http://selenazhen.com/podcasts/ep7.mp3" length="42730924" type="audio/mpeg"/>
+            <guid isPermaLink="false">DBB5F646-30EC-43A5-90E4-5B1971D14066</guid>
+            <itunes:author>Selena Zhen</itunes:author>
+            <itunes:keywords>Activism,Designing Activism,Designing Advocacy,Advocacy,AIAS,American Institute of Architecture Students,Podcast,Design Activism,Design Advocacy,Design Activism,Thesis,Carnegie Mellon University,thesis project</itunes:keywords>
+            <itunes:image href="http://selenazhen.com/podcasts/podcastArtwork.jpg"/>
+            <itunes:duration>1637</itunes:duration>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:title>7. Advocacy through Thesis</itunes:title>
+            <dc:creator>Selena Zhen</dc:creator>
+        </item>
+        <item>
+            <title>6. Concious Consumerism</title>
+            <link>http://selenazhen.com/advocacy</link>
+            <description>
+                <content:encoded><![CDATA[<p>Apologies on the audio! Our main mic cut out, so we had to default to the laptop's audio. </p>
+
+<p>Social responsibility has become a huge differentiator in the marketplace. As both consumers and companies are becoming more and more mindful of their carbon footprint, advocacy for more sustainable practices and products is particularly important now. Learn more with us as we discuss products, corporate social responsibility strategies, metal straws, and Selena’s car troubles.</p>
+
+<p>We are aware that because this episode was recorded 2-3 weeks ago, it doesn't address the current COVID-19 situation in the world. We hope you all are safe, washing your hands, and doing okay! </p>
+
+<p>Enjoy!
+<br />-S & C</p>]]></content:encoded>
+            </description>
+            <pubDate>Fri, 20 Mar 2020 17:45:43 -0400</pubDate>
+            <enclosure url="http://selenazhen.com/podcasts/ep6.mp3" length="47792797" type="audio/mpeg"/>
+            <guid isPermaLink="false">593961B7-2EDE-40FC-8D88-BE464C48FE91</guid>
+            <itunes:author>Selena Zhen &amp; Chitika Vasudeva</itunes:author>
+            <itunes:keywords>Activism,Designing Activism,Designing Advocacy,Advocacy,AIAS,American Institute of Architecture Students,Podcast,Design Activism,Design Advocacy,Design Activism,Concious Consumerism,Consumerism,Products</itunes:keywords>
+            <itunes:image href="http://selenazhen.com/podcasts/podcastArtwork.jpg"/>
+            <itunes:duration>1865</itunes:duration>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:title>6. Concious Consumerism</itunes:title>
+            <dc:creator>Selena Zhen</dc:creator>
+        </item>
         <item>
             <title>5. Activism in Sports</title>
             <link>http://selenazhen.com/advocacy</link>
