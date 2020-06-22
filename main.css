@@ -2,8 +2,6 @@
 
 body {
   margin: 0;
-  /*text-transform: uppercase;*/
-  background-color: #5C98C9;
 }
 p {
   font-size: 1.4em;
@@ -668,7 +666,7 @@ footer {
   height: 220px;*/
   margin: 0 0 15px 0;
   overflow: hidden;
-  border: 1px solid black;
+  border: 1px solid #9a9a9a;
   padding: 5px;
   /*background-color: #f8f8f8;*/
 }
@@ -734,7 +732,6 @@ footer {
   -moz-column-fill: auto; /* Firefox */
   column-fill: auto;
   column-gap: 30px;
-  text-align: justify;
 }
 .newspaperFillText2 {
   -webkit-column-count: 2; /* Chrome, Safari, Opera */
@@ -744,7 +741,6 @@ footer {
   -moz-column-fill: auto; /* Firefox */
   column-fill: auto;
   column-gap: 30px;
-  text-align: justify;
 }
 .max800width {
   max-width: 800px;
@@ -901,7 +897,10 @@ ol#sacolakeprocesslist {
 
 .slideshow {
   position: relative;
-  margin: 0 auto;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  margin-top: 0 auto;
+  margin-bottom: 20px;
   padding: 0;
 }
 .slideshow .container {
@@ -948,7 +947,7 @@ ol#sacolakeprocesslist {
 }
 
 .bluecrewBox {
-  border: 2px black solid;
+  border: 1px black solid;
   padding: 0;
   text-align: center;
   width: 100%;
