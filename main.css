@@ -2,43 +2,42 @@
 
 body {
   margin: 0;
+  font-family: 'Karla','PT Sans', 'Roboto', Arial, Helvetica, sans-serif;
 }
 p {
   font-size: 1.4em;
-  font-family: 'Karla','PT Sans', 'Roboto', Arial, Helvetica, sans-serif;
+
   margin-bottom: 15px;
 }
 a {
-  /*font-size: 1.75em;*/
-  font-family: 'Karla','PT Sans', 'Roboto', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
-
 }
 a:hover {
   text-decoration: none !important;
 }
+a:active {
+  color: black;
+}
+a:visited {
+  color: black;
+}
 h1 {
   font-size: 3em;
   font-weight: 700;
-  font-family: 'Karla','PT Sans', 'Roboto', Arial, Helvetica, sans-serif;
   text-transform: uppercase !important;
 }
 h2 {
   font-size: 2.2em;
   font-weight: 700;
-  font-family: 'Karla','PT Sans', 'Roboto', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
 }
 h3 {
   font-size: 1.75em;
-  font-family: 'Karla','PT Sans', 'Roboto', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
 }
 h3 {
   font-size: 1.75em;
   font-weight: 700;
-  font-family: 'Karla','PT Sans', 'Roboto', Arial, Helvetica, sans-serif;
-
 }
 ul {
   list-style: none;
@@ -748,6 +747,12 @@ footer {
   margin: 0 auto;
   position: relative;
 }
+.max600width {
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
 .max450width {
   max-width: 450px;
 }
@@ -926,6 +931,10 @@ ol#sacolakeprocesslist {
   margin-top: 5px;
   text-align: center;
   font-size: .8em;  
+}
+
+.theaterConceptList {
+  font-size: 1.4em;
 }
 
 #skyeUniversityHeader {
