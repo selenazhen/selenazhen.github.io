@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Language" content="en">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="A small project designing an educational learning app for users to share cooking tips and recipes, learn from other users and chefs, or sign up to attend cooking courses at their local supermarket.">
+  <meta itemprop="description" content="A small project designing an educational learning app for users to share cooking tips and recipes, learn from other users and chefs, or sign up to attend cooking courses at their local supermarket.">
+  <meta itemprop="name" content="Selena Zhen Portfolio">
+  <meta property="og:image" content="../images/logo_square.png" />
+  <meta itemprop="image" content="../images/logo_square.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" type="image/png" href="../images/logo_square.png"/>
+  <title>Zest</title>
+
+  <!-- Search Engine -->
+  <meta name="image" content="../images/logo_square.png">
+  <!-- Schema.org for Google -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+
+<link href="../.././main.3dd4f1573b0bb296eb8b.css" rel="stylesheet"></head>
+
+<body class="designColorBackgroundColor">
+
+<section>
+  <div class="largerWrapper"> <!-- makes white box around content -->
+
+  
+    <nav class="navbar navbar-light navbar-expand-md justify-content-center ">
+      <a href="/" class="navbar-brand d-flex w-50 mr-auto designColor">SZ  <span class="sr-only">(current)</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+          <p class="blackColor" id="navbarbutton">menu</p>
+      </button>
+    
+      <div class="navbar-collapse collapse linkUnderlineJump linkLight" id="collapsingNavbar">
+        <ul class="nav navbar-nav ml-auto justify-content-end">
+          <li class="nav-item ">
+            <a class="nav-link  inactive " href="/architecture">architecture</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  NavlinkDesign " href="/design">design</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  inactive " href="/play">play</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  inactive " href="/about">about</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  <button onclick="topFunction()" id="buttonTop" title="Go to top">Top</button>
+  
+  <div class="wrapper"><!--start of content-->
+  
+    <div class="col-xs-12 normalizeDiv"> <!-- start of grid content -->
+  
+      <div class="col-xs-12 pageProjectTitle">
+        <a href="/design" class="linkHighlight pageBack">&larr; Back to <span class="designColor">design</span></a>
+        <h1> Zest </h1>
+      </div>
+  
+  		
+  		        <div class="col-xs-12 col-sm-4 pageProjectDivContent">
+  		          <p>
+  		            <a href="#research" class="linkUnderlineHighlight pageProjectTableOfContentsItem">Research</a><br>
+  		            <a href="#competitiveAnalysis" class="linkUnderlineHighlight pageProjectTableOfContentsItem">Competitive Analysis</a><br>
+  		            <a href="#customerJourneyMaps" class="linkUnderlineHighlight pageProjectTableOfContentsItem">Customer Journey Maps</a><br>
+  		            <a href="#personasAndScenarios" class="linkUnderlineHighlight pageProjectTableOfContentsItem">Personas and Scenarios</a><br>
+  		            <a href="#userFlowDiagram" class="linkUnderlineHighlight pageProjectTableOfContentsItem">User Flow Diagram</a><br>
+  		            <a href="#wireframes" class="linkUnderlineHighlight pageProjectTableOfContentsItem">Initial Wireframes</a><br>
+  		            <a href="#userTestingSummary" class="linkUnderlineHighlight pageProjectTableOfContentsItem">User Testing Summary</a><br>
+  		            <a href="#ScreenDesignIterations" class="linkUnderlineHighlight pageProjectTableOfContentsItem">Screen Design Iterations - Draft 1</a><br>
+  		            <a href="#final" class="linkUnderlineHighlight pageProjectTableOfContentsItem">Final Design and Concept</a><br>
+  		            <a href="#pitch" class="linkUnderlineHighlight pageProjectTableOfContentsItem">Pitch</a>
+  		          </p>
+  		        </div>
+  		
+  		        <div class="col-xs-12 col-sm-8 pageProjectDivContent">
+  		          <h3>Carnegie Mellon University</h3>
+  		          <p>Fourth Year | Spring 2019<br>05-392 Interaction Design Overview<br>Professors: Rita Lee, Shelley Moertel</p>
+  		          <h3>Introduction</h3>
+  		          <p>Our app focuses on learning and teaching how to cook. Unlike a lot of current apps in this domain that mainly share recipes, our app would provide people with classes for cooking either through videos or in-person meetups. We want to create a platform where people can interact more and learn more comfortably and quickly. In addition, any user would be able to learn but also teach, because these users, by default, are the experts regarding their own particular recipe. After extensive research and iteration, we designed an app for cooking that combines written, visual, physical and auditory methods of learning and teaching.</p>
+  		          <p>In collaboration with Joseph Pang, Ji Soo Geum, and Rachel Park. </p>
+  		          <p>Check out our <a href="#pitch" class="linkUnderlineHighlight">Project Pitch</a> or our <a href="../.././images/design/zest/ProcessBook.pdf" class="linkUnderlineHighlight" target="_blank">Process Book</a>.</p>
+  		        </div>
+  		
+  		        <div>
+  		          <div class="col-sm-12 col-md-6 pageProjectDivHeader" id="research">
+  		            <h2>Research</h2>
+  		            <p>Our research utilized a 3-part interview process. The first round of interviews was a general interview asking people about learning experiences. The second round of interviews was asking people about learning specific to cooking. The last round of interviews was asking people about teaching how to cook.</p>
+  		            <p>We found that most people learned best through personal interaction and that there needs to be more thorough steps when learning or teaching someone. By interviewing people, we were able to create the content of our app.</p>
+  		          </div>
+  		
+  		          <div class="col-sm-12 col-md-6 pageProjectDivHeader" id="competitiveAnalysis">
+  		            <h2>Competitive Analysis</h2>
+  		            <h3>Duolingo</h3>
+  		            <p>Duolingo​ is a language learning app that helps people learn any of their 23 languages offered.</p>
+  		            <h3>Soomgo​</h3>
+  		            <p>Soomgo​ is a South Korean mobile app that matches the users with professionals offering a variety of services such as tutoring, moving, designing, and even wedding planning.</p>
+  		            <h3>Khan Academy​</h3>
+  		            <p>The Khan Academy​ mobile app is an extension of the existing Khan Academy framework, which has consisted of a multitude of videos and course frameworks that help both students who have quick questions on specific topics and students who want to build the skill up from scratch.</p>
+  		            <h3>Craftsy</h3>
+  		            <p>Craftsy ​is an app for users to explore online craft classes as well as purchase kits, supplies, and projects ideas.</p>
+  		          </div>
+  		        </div>
+  		
+  		
+  		        <div class="col-xs-12 pageProjectDivHeader" id="customerJourneyMaps">
+  		          <h2>Customer Journey Maps</h2>
+  		        </div>
+  		
+  		        <div class="col-xs-12 pageProjectDivContent normalizeDiv">
+  		          <div class="col-xs-12">
+  		            <a href="../.././images/design/zest/mapdraft.jpg" target="_blank">
+  		              <img class="image" src="../.././images/design/zest/mapdraft.jpg">
+  		            </a>
+  		            <p class="imageCaption centerAlign">In Class Brainstorming</p>
+  		          </div>
+  		          <div class="col-sm-12 col-md-6">
+  		            <a href="../.././images/design/zest/CustomerJourneyMaps-students.png" target="_blank">
+  		              <img class="image" src="../.././images/design/zest/CustomerJourneyMaps-students.png">
+  		            </a>
+  		            <p class="imageCaption centerAlign">Customer Journey Map for a student</p>
+  		          </div>
+  		          <div class="col-sm-12 col-md-6">
+  		            <a href="../.././images/design/zest/CustomerJourneyMaps-teachers.png" target="_blank">
+  		              <img class="image" src="../.././images/design/zest/CustomerJourneyMaps-teachers.png">
+  		            </a>
+  		            <p class="imageCaption centerAlign">Customer Journey Map for a teacher</p>
+  		          </div>
+  		        </div>
+  		
+  		
+  		        <div class="col-xs-12 pageProjectDivHeader" id="personasAndScenarios">
+  		          <h2>Personas And Scenarios</h2>
+  		        </div>
+  		        <div class="col-xs-12 pageProjectDivContent normalizeDiv">
+  		          <div class="col-xs-12 normalizeDiv">
+  		            <div class="col-sm-12 col-md-6">
+  		              <h3>Stakeholder - George, late 60s</h3>
+  		              <p>George is a manager at Whole Foods who is looking to expand his grocery store’s sales by encouraging people to cook. As a result, he has decided to invest in an app, Zest, that is a one-stop shop for all how-to cooking needs. He wants the app to provide something different from the current cooking apps and Youtube videos so that the app can distinguish itself from the oversaturated market. According to his own cooking experience, George knows that personal interaction and individualized learning is the most helpful way for successful cooking. As a result, George wants to expand from simply sharing cooking tips and recipes and create a community that anyone of various skill levels can learn and teach how to cook.</p>
+  		            </div>
+  		            <div class="col-sm-12 col-md-6">
+  		              <h3>Scenario</h3>
+  		              <p>George comes out of a meeting with his staff and finds out that their sales are decreasing. He wants to find a way to get people to buy more food/ingredients from his store so that his sales increase again. As a result, he advertises the use of Zest by hosting in-person cooking classes, which is a feature of Zest.</p>
+  		            </div>
+  		          </div>
+  		          <div class="col-xs-12 normalizeDiv">
+  		            <div class="col-sm-12 col-md-6">
+  		              <h3>User #1 - Jennifer, 23, Graduate Student - wants to cook more often</h3>
+  		              <p>Jennifer is a graduate student who wants to stop eating out and save money. As a result, she wants to cook more often than she does now; however, she only has a small range of skills and recipes. Thus, she gets bored of her food quickly. She’s looking for a platform that can teach her how to cook more dishes, in an interactive and personal way.</p>
+  		            </div>
+  		            <div class="col-sm-12 col-md-6">
+  		              <h3>Scenario</h3>
+  		              <p>Jennifer is a graduate student who’s trying to save money on food because her school expenses are too high. She already has some recipes and cooking experience but not enough to cook for every meal of the week. She turns to Zest to find more interesting and diverse recipes that will keep her eating experience from being boring and stale.</p>
+  		            </div>
+  		          </div>
+  		          <div class="col-xs-12 normalizeDiv">
+  		            <div class="col-sm-12 col-md-6">
+  		              <h3>User #2 - Tom, 27, Businessman - inexperienced</h3>
+  		              <p>Tom is a businessman who has never cooked before but wants to impress a woman with a romantic 3 course meal. He needs to be taught every step slowly and thoroughly. As a result, he turns to the app Zest, which has a personalized and interactive feature that allows him to communicate and learn from a chef.</p>
+  		            </div>
+  		            <div class="col-sm-12 col-md-6">
+  		              <h3>Scenario</h3>
+  		              <p>Tom is a businessman who has no idea how to cook but wants to impress a woman on a date this weekend. He stupidly already told this woman that he’d cook a dinner for her. So, he wants to try learning how to cook using Zest, since it has a good step by step cooking process for beginners. He needs everything from ingredients to tips and tricks to measurements to instructions on how to fix possible mistakes.</p>
+  		            </div>
+  		          </div>
+  		          <div class="col-xs-12 normalizeDiv">
+  		            <div class="col-sm-12 col-md-6">
+  		              <h3>User #3 - Emily, 35, Married, 3 children - experienced and wants to share recipes</h3>
+  		              <p>Emily is a mom of 3 who has figured out every trick there is to getting her children to eat healthily. After a lot of experimenting with food and combining different recipes, she has figured out what recipes work and don’t work. She wants to help others so that feeding their children becomes an easier process. In addition, she wants to learn more advanced recipes, since she’s mastered simple dishes and working around them.</p>
+  		            </div>
+  		            <div class="col-sm-12 col-md-6">
+  		              <h3>Scenario</h3>
+  		              <p>Emily, having 3 picky children to feed, has used up all of her knowledge on food to mix and match as well as create new recipes, to maintain her children’s nutrition. She wants to share her tips and tricks with everyone else and she wants to learn how to cook other recipes, now that she’s fully used her current ones.</p>
+  		            </div>
+  		          </div>
+  		        </div>
+  		
+  		
+  		        <div>
+  		          <div class="col-sm-12 col-md-6 pageProjectDivHeader" id="userFlowDiagram">
+  		            <div class="pageProjectDivHeader">
+  		              <h2>User Flow Diagram</h2>
+  		            </div>
+  		            <div class="pageProjectDivContent">
+  		              <a href="../.././images/design/zest/userFlow.jpg" target="_blank">
+  		                <img class="image max800width" src="../.././images/design/zest/userFlow.jpg">
+  		              </a>
+  		            </div>
+  		          </div>
+  		
+  		          <div class="col-sm-12 col-md-6" id="wireframes">
+  		            <div class="pageProjectDivHeader">
+  		              <h2>Initial Wireframes</h2>
+  		            </div>
+  		            <div class="pageProjectDivContent">
+  		              <a href="../.././images/design/zest/LowFiPrototype.jpg" target="_blank">
+  		                <img class="image" src="../.././images/design/zest/LowFiPrototypeSmall.jpg">
+  		              </a>
+  		            </div>
+  		          </div>
+  		        </div>
+  		
+  		        <div class="col-sm-12 col-md-8 pageProjectDivContent" id="userTestingSummary">
+  		          <h2>User Testing Summary</h2>
+  		          <p>Overall, our users only had trouble with 1 major thing; they were confused about where to go to create/share a recipe versus a class. The "Create" button at the top right corner of the screen that was meant for creating and sharing a recipe mislead our users. However, when directed to the "Me" page, it was easy for our users to create an event for teaching a cooking class. As a result, we’ve decided to reword our buttons.</p>
+  		        </div>
+  		
+  		        <div class="col-xs-12 pageProjectDivHeader" id="ScreenDesignIterations">
+  		          <h2>Screen Design Iterations - Draft 1</h2>
+  		        </div>
+  		        <div class="col-xs-12 pageProjectDivContent normalizeDiv">
+  		          <div class="col-sm-12 col-md-6">
+  		            <a href="../.././images/design/zest/iteration1.jpg" target="_blank">
+  		              <img class="image" src="../.././images/design/zest/iteration1.jpg">
+  		            </a>
+  		          </div>
+  		          <div class="col-sm-12 col-md-6">
+  		            <a href="../.././images/design/zest/iteration2.jpg" target="_blank">
+  		              <img class="image" src="../.././images/design/zest/iteration2.jpg">
+  		            </a>
+  		          </div>
+  		        </div>
+  		
+  		        <div class="col-xs-12 pageProjectDivHeader" id="final">
+  		          <h2>Final Design and Concept</h2>
+  		        </div>
+  		        <div class="col-xs-12 pageProjectDivContent normalizeDiv">
+  		          <div class="col-sm-12 col-md-3">
+  		            <a href="../.././images/design/zest/Login.jpg" target="_blank">
+  		              <img class="image" src="../.././images/design/zest/Login.jpg">
+  		            </a>
+  		            <p class="imageCaption centerAlign">Log In</p>
+  		          </div>
+  		          <div class="col-sm-12 col-md-3">
+  		            <a href="../.././images/design/zest/Home.jpg" target="_blank">
+  		              <img class="image" src="../.././images/design/zest/Home.jpg">
+  		            </a>
+  		            <p class="imageCaption centerAlign">Home</p>
+  		          </div>
+  		          <div class="col-sm-12 col-md-3">
+  		            <a href="../.././images/design/zest/BrowseClasses.jpg" target="_blank">
+  		              <img class="image" src="../.././images/design/zest/BrowseClasses.jpg">
+  		            </a>
+  		            <p class="imageCaption centerAlign">Browse Classes - Livestream or Face-to-Face</p>
+  		          </div>
+  		          <div class="col-sm-12 col-md-3">
+  		            <a href="../.././images/design/zest/BrowseRecipes.jpg" target="_blank">
+  		              <img class="image" src="../.././images/design/zest/BrowseRecipes.jpg">
+  		            </a>
+  		            <p class="imageCaption centerAlign">Browse Recipes</p>
+  		          </div>
+  		          <div class="col-xs-6">
+  		            <video src="../.././images/design/zest/main.mp4" class="image" width="100%" height="auto" controls loop autoplay>
+  		              <div class="col-xs-12">
+  		                <a href="../.././images/design/zest/Home.jpg" target="_blank">
+  		                  <img class="image" src="../.././images/design/zest/Home.jpg">
+  		                </a>
+  		              </div>
+  		            </video>
+  		            <p class="imageCaption centerAlign">Main screens of Zest app</p>
+  		          </div>
+  		          <div class="col-xs-6">
+  		            <video src="../.././images/design/zest/create.mp4" class="image" width="100%" height="auto" controls loop autoplay>
+  		              <div class="col-xs-3">
+  		                <a href="../.././images/design/zest/2.Prep.jpg" target="_blank">
+  		                  <img class="image" src="../.././images/design/zest/2.Prep.jpg">
+  		                </a>
+  		                <p class="imageCaption centerAlign">Learn about what it means to create a cooking class.</p>
+  		              </div>
+  		              <div class="col-xs-3">
+  		                <a href="../.././images/design/zest/3.CreateEvent.jpg" target="_blank">
+  		                  <img class="image" src="../.././images/design/zest/3.CreateEvent.jpg">
+  		                </a>
+  		                <p class="imageCaption centerAlign">Create Event Page</p>
+  		              </div>
+  		              <div class="col-xs-3">
+  		                <a href="../.././images/design/zest/4.ChooseRecipe.jpg" target="_blank">
+  		                  <img class="image" src="../.././images/design/zest/4.ChooseRecipe.jpg">
+  		                </a>
+  		                <p class="imageCaption centerAlign">Choose a recipe to follow in your class. </p>
+  		              </div>
+  		              <div class="col-xs-3">
+  		                <a href="../.././images/design/zest/5.TeachingTips.jpg" target="_blank">
+  		                  <img class="image" src="../.././images/design/zest/5.TeachingTips.jpg">
+  		                </a>
+  		                <p class="imageCaption centerAlign">Thoughts to keep in mind when preparing for your class. </p>
+  		              </div>
+  		              <div class="col-xs-3">
+  		                <a href="../.././images/design/zest/6.Verification.jpg" target="_blank">
+  		                  <img class="image" src="../.././images/design/zest/6.Verification.jpg">
+  		                </a>
+  		                <p class="imageCaption centerAlign">Verify the information and publish the event!</p>
+  		              </div>
+  		            </video>
+  		            <p class="imageCaption centerAlign">Create an Event Sequence</p>
+  		          </div>
+  		        </div>
+  		
+  		        <div class="col-xs-12 pageProjectDivHeader" id="pitch">
+  		          <h2>Project Pitch Slides</h2>
+  		        </div>
+  		        <div class="col-xs-12 pageProjectDivContent">
+  		          <object data="../.././images/design/zest/Pitch.pdf" type="application/pdf" width="100%" height="600px">
+  		            <p>If unavailable, see file <a href="../.././images/design/zest/Pitch.pdf">here</a>.</p>
+  		          </object>
+  		        </div>
+  		
+  		  
+  		
+  		
+  
+      <div class="col-xs-12 pageProjectTitle">
+        <a href="/design" class="linkHighlight pageBack">&larr; Back to <span class="designColor">design</span></a>
+      </div>
+  
+  	</div> <!-- end of grid content -->
+  
+        <footer>
+          <p>Made with HTML, CSS, & little bit of magic (called Handlebars.js) &#128522;</p>
+          <p>Designed by Selena Zhen &copy; <script>document.write(new Date().getFullYear())</script>   <a href="/about" class="linkUnderlineHighlight">About Me!</a>
+          </p?
+        </footer>
+  </div><!--end of content-->
+  
+  
+  <script>
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("buttonTop").style.display = "block";
+      } else {
+          document.getElementById("buttonTop").style.display = "none";
+      }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+  }
+  </script>
+  
+
+  </div> <!-- makes white box around content -->
+
+</section>
+
+
+
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+ -->
+<script type="text/javascript" src="../.././assets/scripts/main.3dd4f1573b0bb296eb8b.js"></script></body>
+
+</html>
